@@ -118,7 +118,7 @@ sub Check_Password
     my $l = Net::LDAP->new($ldap->{users_server});
     return (0) if (!defined $l);
 
-    my $msg = $l->bind("uid=$user,$ldap->{users_base}", password => $pwd);
+    my $msg = $l->bind("cn=$user,$ldap->{users_base}", password => $pwd);
     my $msg2 = $l->search(
       base   => $ldap->{users_base},
       filter => $ldap->{users_filter}
@@ -126,6 +126,7 @@ sub Check_Password
     my $valid_user = 0;
     foreach my $entry ($msg2->entries)
     {
+    
       $valid_user = 1 if ($entry->get_value('uid') eq $user);
     }
 
