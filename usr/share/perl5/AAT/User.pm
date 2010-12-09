@@ -89,6 +89,7 @@ sub Add
     {
     login       => $login,
     password    => unix_md5_crypt($pwd, $SALT),
+    password_from_ldap => 0,
     certificate => $certificate,
     role        => $role,
     language    => $lang || $DEFAULT_LANGUAGE,
@@ -154,6 +155,7 @@ sub Update
         {
         login => $update->{login} || $login,
         password     => $pwd,
+        password_from_ldap => $update->{password_from_ldap} || $u->{password_from_ldap} || 'Disabled',
         role         => $update->{role} || $u->{role},
         language     => $update->{language} || $u->{language},
         status       => $update->{status} || $u->{status} || 'Enabled',

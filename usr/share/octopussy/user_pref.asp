@@ -7,14 +7,15 @@ if (defined $f->{update})
 {
 	my %conf = ();
 	$conf{language} = $f->{AAT_Language};
-  $conf{theme} = $f->{AAT_Theme};
-	$conf{menu_mode} = $f->{AAT_MenuMode};	
+    $conf{theme} = $f->{AAT_Theme};
+	$conf{menu_mode} = $f->{AAT_MenuMode};
+	$conf{password_from_ldap} = (defined $f->{password_from_ldap} ? 'Enabled' : 'Disabled');
 	if (NOT_NULL($f->{old_pwd}) || NOT_NULL($f->{new_pwd1}) 
 		|| NOT_NULL($f->{new_pwd2}))
 	{
 		my $auth = AAT::User::Authentication("Octopussy", $login, $f->{old_pwd});
-    if (NULL($auth->{login}))
-    { 
+        if (NULL($auth->{login}))
+        { 
 			$ok = 0;
 			%><AAT:Message level="2" msg="Wrong Password !" /><% 
 		}
