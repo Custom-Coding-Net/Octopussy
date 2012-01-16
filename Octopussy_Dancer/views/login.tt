@@ -1,0 +1,14 @@
+<% PROCESS 'macros.tt' %>
+<form action="<% url_login %>" method="post">
+<% WRAPPER 'widgets/box.tt' align='center' cellpadding='0' %>
+<tr>
+<td valign="top" rspan="4"><% picture("/img/octo_login1.png") %></td>
+<td valign="top"><% picture("/img/octo_login2.png") %></td>
+</tr>
+<tr><td>Login:</td><td><input type="text" name="login"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password"></td></tr>
+<tr><td cspan="3">Octopussy <% octopussy_version %></td></tr>
+<tr><td cspan="3"><hr></td></tr>
+<tr><td cspan="3"><input type="submit" value="Connect to Octopussy"></td></tr>
+<% END %>
+</form>

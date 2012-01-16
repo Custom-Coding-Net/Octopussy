@@ -1,0 +1,10 @@
+<html>
+<head>
+<title><% page_title %></title>
+</head>
+<body>
+<div id="page_header"></div>
+<% content %>
+<div id="page_footer"></div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<% MACRO picture(file) INCLUDE 'widgets/picture.tt' %>
