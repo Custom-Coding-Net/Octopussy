@@ -1,3 +1,4 @@
+<% DEFAULT cellspacing='0' %>
 <div align="<% align %>">
 <table cellspacing="0" cellpadding="0">
 <tr>
@@ -8,8 +9,8 @@
 <tr>
 <td class="box-left"></td>
 <td class="box">
-<table cellspacing="<%= $space %>" cellpadding="<%= $padd %>" width="100%">
-<% content %>
+<table cellspacing="<% cellspacing %>" cellpadding="<% cellpadding %>" width="100%">
+<span class="box"><% content %></span>
 </table>
 </td>
 <td class="box-right"></td></tr>

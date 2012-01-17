@@ -1,1 +1,2 @@
+<% MACRO button(name) INCLUDE 'widgets/button.tt' %>
 <% MACRO picture(file) INCLUDE 'widgets/picture.tt' %>
