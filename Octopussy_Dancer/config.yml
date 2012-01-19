@@ -2,6 +2,9 @@ appname: Octopussy
 
 port: 8889
 
+logger: 'file'
+log: 'debug'
+
 session: Simple
 
 template: template_toolkit

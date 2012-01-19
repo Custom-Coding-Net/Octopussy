@@ -1,1 +1,56 @@
+<% PROCESS 'macros.tt' %>
 <div align="center">Octopussy is going to Dance !</div>
+<%
+items = [
+	{ 	button = 'alert', label = '_ALERTS' 
+		link = '/alert/list' },
+	{ 	button = 'contact', label = '_CONTACTS' 
+		link = '/contact/list' },
+	{ 	button = 'device', label = '_DEVICES' 
+		link = '/device/list' },
+	{ 	button = 'devicegroup', label = '_DEVICEGROUPS', 
+		link = '/devicegroup/list' },
+  	{ 	button = 'home', label = '_LOCATIONS', 
+		link = '/location/list' },
+  	{ 	button = 'location', label = '_MAPS', 
+		popup_link = '/maps' },
+  	{ 	button = 'messages', label = '_MESSAGES', 
+		link = '/message/list' },
+  	{ 	button = 'report', label = '_REPORTS', 
+		link = '/report/list' },
+	{ 	button = 'scheduler', label = '_SCHEDULER', 
+		link = '/scheduler' },
+	{ 	button = 'search_template', label = '_SEARCH_TEMPLATES', 
+		link = '/search_template/list' },
+  	{ 	button = 'service', label = '_SERVICES', 
+		link = '/service/list' },
+ 	{ 	button = 'servicegroup', 
+		label = "_SERVICEGROUPS", link = "./servicegroups.asp" },
+	{ 	button = 'storage', label = '_STORAGES', 
+		link = '/storage/list' },
+	{ 	button = 'table', label = '_TABLES', 
+		link = '/table/list' },
+	{ 	button = 'period', label = '_TIMEPERIODS', 
+		link = '/timeperiod/list' },
+	{ 	button = 'users', label = '_USERS', 
+		link = '/user/list' },
+  	{ separator = 1 },
+	{ 	button = 'alert', label = '_ALERTS_VIEWER', 
+		link = '/alert/viewer' },
+	{ 	button = 'player_playlist', label = '_LOGS_AVAILABILITY',
+		link = '/log/availability' },
+  	{ 	button = 'search', label = '_LOGS_VIEWER',
+    	link = '/logs/viewer' },
+  	{ 	button = 'report', label = '_REPORTS_VIEWER',
+    	link = '/report/viewer' },
+  	{ separator = 1 },
+  	{ 	button = 'wizard', label = '_LOGS_WIZARD', 
+		link = '/log/wizard' },
+  	{ separator = 1 },
+  	{ 	button = 'bug', label = '_SUPPORT_REQUEST', 
+		link = '/bugreport' },
+  	{ 	button = 'web', label = '_WORLD_STATISTICS', 
+		link = '/world_statistics' }
+	]
+%>
+<% INCLUDE 'widgets/menu.tt' items %>

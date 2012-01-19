@@ -1,0 +1,23 @@
+<% mode = 'ICONS_AND_TEXT' %>
+<% WRAPPER 'widgets/box.tt' %>
+<% FOREACH item IN items %>
+	<% IF item.separator %>
+		<tr><td colspan="2"><hr></td></tr>	
+	<% ELSE %>
+		<tr><td valign="middle">
+		<% IF (item.button && mode != 'TEXT_ONLY') %>
+			<% alt = "Icon Menu $item.label" %>
+			<% IF mode == 'ICONS_ONLY' %>
+				<% button(item.button) #, tooltip=item.label) 
+				%>
+			<% ELSE %>
+				<% button(item.button) %>
+			<% END %>
+		<% END %>
+		<% IF (mode != 'ICONS_ONLY') %>
+			<% item.label %>
+		<% END %>
+		</td></tr>
+	<% END %>
+<% END %>
+<% END %>
