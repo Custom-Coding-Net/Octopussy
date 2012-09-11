@@ -1,0 +1,9 @@
+<html>
+<head>
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all" />
+<title><% page_title %></title>
+</head>
+<body>
+<% html %>
+</body>
+</html>
