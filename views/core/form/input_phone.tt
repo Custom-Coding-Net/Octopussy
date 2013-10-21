@@ -1,0 +1,18 @@
+[% DEFAULT id='input_phone' placeholder='Phone number' %]
+<div id="[% id %]_error_level" class="control-group">
+<div class="controls">
+<div class="input-prepend">
+<span class="add-on"><i class="icon-phone"></i></span>
+<input  id="[% id %]" type="entry" class="span3" placeholder="[% placeholder %]" value="[% phone %]">
+</div>
+<span id="[% id %]_error_msg" class="help-inline"></span>
+</div>
+</div>
+<script type="text/javascript" charset="utf-8">
+$("#[% id %]").keyup(function() {
+	$.getJSON('/JSON/validation/phone/' + $("#[% id %]").val(), function(json) {
+   		$("#[% id %]_error_level").removeClass().addClass("control-group " + json.level);
+       	$("#[% id %]_error_msg").text(json.msg);
+    });
+});
+</script>

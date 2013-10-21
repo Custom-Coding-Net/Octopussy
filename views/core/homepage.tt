@@ -1,0 +1,13 @@
+<div align="center">
+<table border="1">
+<tr>
+[% FOREACH i IN items %]
+<td width="[% size %]" height="[% size %]">
+<div style="font-size: [% size %]px;">
+	<a href="[% i.link %]"><i class="icon-[% i.icon %]"></i></a>
+</div>
+</td>
+[% END %]
+</tr>
+</table>
+</div>

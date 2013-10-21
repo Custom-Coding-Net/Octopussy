@@ -1,0 +1,18 @@
+<form method='POST' action='/user/preferences' class="form-horizontal">
+<fieldset>
+    <legend><i class="icon-wrench icon-large"></i> [% loc('_USER_PREFS') %]</legend>
+	<div class="control-group">
+		<label class="control-label" for="user">[% loc('_USER') %]</label>
+		<div class="controls"><i class="icon-user"></i> [% session.octopussy_user %]</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="select_language">[% loc('_LANGUAGE') %]</label>
+		<div class="controls">[% INCLUDE 'core/form/select_language.tt' selected=session.octopussy_language %]</div>
+	</div>
+	[% INCLUDE 'core/form/input_new_password.tt' label=loc('_NEW_PASSWORD') id='new_password' %]
+	<div class="form-actions">
+	<button type="submit" class="btn btn-primary">[% loc('_MSG_UPDATE_PREFS') %]</button>
+	<button type="button" class="btn">[% loc('_CANCEL') %]</button>
+	</div>
+</fieldset>
+</form>

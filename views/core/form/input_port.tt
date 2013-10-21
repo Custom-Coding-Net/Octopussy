@@ -1,0 +1,15 @@
+[% DEFAULT id='input_port' placeholder='Port' %]
+<div id="[% id %]_error_level" class="control-group">
+<div class="controls">
+<input id="[% id %]" type="entry" class="span1" placeholder="[% placeholder %]" value="[% port %]">
+<span id="[% id %]_error_msg" class="help-inline"></span>
+</div>
+</div>
+<script type="text/javascript" charset="utf-8">
+$("#[% id %]").keyup(function() {
+    $.getJSON('/JSON/validation/port/' + $("#[% id %]").val(), function(json) {
+		$("#[% id %]_error_level").removeClass().addClass("control-group " + json.level);
+        $("#[% id %]_error_msg").text(json.msg);
+     });
+});
+</script>

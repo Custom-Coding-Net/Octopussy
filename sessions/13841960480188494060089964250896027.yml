@@ -1,0 +1,8 @@
+--- !!perl/hash:Dancer::Session::YAML
+id: 13841960480188494060089964250896027
+language: en
+octopussy_language: en
+octopussy_role: admin
+octopussy_user: admin
+octopussy_user_firstname: Sébastien
+octopussy_user_lastname: Thébert

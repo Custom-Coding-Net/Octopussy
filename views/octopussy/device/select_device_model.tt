@@ -1,0 +1,6 @@
+<select name="select_device_model" id="select_device_model">
+<option value="" selected>-- [% loc("_DEVICE_MODEL") %] --</option>
+[% FOREACH dm IN ITTool.LogManagement.Device_Models %]
+	<option value="[% dm.name %]">[% dm.name %]</option>
+[% END %]
+</select>

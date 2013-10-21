@@ -1,0 +1,19 @@
+<div class="input-prepend">
+<span class="add-on"><i class="icon-flag"></i></span>
+<select name="select_language" id="select_language" class="input-medium">
+<option value="">-- Language --</option>
+</select>
+<script type="text/javascript" charset="utf-8">
+$.ajax({
+    url:'/JSON/language/list',
+    type:'GET',
+    dataType: 'json',
+    success: function(json) {
+        $.each(json, function(i, value) {
+        	$('#select_language').append(new Option(value.name, value.code, false, false));
+        });
+		$('#select_language').val('[% session.octopussy_language %]');
+    }
+});
+</script>
+</div>

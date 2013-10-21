@@ -1,0 +1,24 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+    	<div class="container">
+      	<a class="brand" href="/">Octopussy [% ITTool.LogManagement.Version %] - [% settings.octopussy_version %]</a>
+      	<ul class="nav pull-right">
+			<li id="fat-menu" class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			<i class="icon-user"></i> [% session.octopussy_user %]<span class="icon-caret-down"></span></a>
+            	<ul class="dropdown-menu" role="menu">
+<!--
+					<li><i class="icon-user"></i> [% session.octopussy_user_firstname %] [% session.octopussy_user_lastname %]</li>
+					<li><i class="icon-caret-right"></i> [% loc('_ROLE') %]: [% session.octopussy_role %]</li>
+					<li class="divider"></li>
+-->
+					<li><a href="/user/preferences"><i class="icon-wrench"></i> [% loc('_USER_PREFS') %]</a></li>
+					<li class="divider"></li>
+              		<li><a href="/user/logout"><i class="icon-off"></i> [% loc('_LOGOUT') %]</a></li>
+            	</ul>
+          	</div>
+			</li>
+		</ul>
+		</div>
+    </div>
+</div>
