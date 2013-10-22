@@ -1,0 +1,43 @@
+[% USE ITTool.LogManagement %]
+<h2>[% loc("_MSG_SERVICES_FOR_DEVICE", device) %]</h2>
+<h3></h3>
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+<tr>
+<th>[% loc("_RANK") %]</th>
+<th>[% loc("_SERVICE") %]</th>
+<th>[% loc("_STATISTICS") %]</th>
+<th>[% loc("_LOGS_COMPRESSION") %]</th>
+<th>[% loc("_ACTION") %]</th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH service IN ITTool.LogManagement.Device_Services(device) %]
+[% statistics_status = (service.statistics ? 'Enabled' : 'Disabled') %]
+[% compression_status = (service.compression ? 'Enabled' : 'Disabled') %]
+<tr>
+<td>[% service.rank %]</td>
+<td>[% service.sid %]</td>
+<td><span class="label[% (statistics_status == 'Enabled' ? ' label-success' : '') %]">[% statistics_status %]</span></td>
+<td><span class="label[% (compression_status == 'Enabled' ? ' label-success' : '') %]">[% compression_status %]</span></td>
+<td>
+[% 
+	INCLUDE 'octopussy/device/move_service_buttons.tt', 
+	device => $device, service => service.id
+%]
+<a href="/device/remove_service/[% device %]/[% service.sid %]"><i class="icon-remove"></i> </a>
+</td>
+</tr>
+[% END %]
+<form>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>
+<button type="submit" class="btn btn-primary">[% loc("_ADD_SERVICE_TO_DEVICE") %]</button>
+</td>
+</tr>
+</tbody>
+</table>

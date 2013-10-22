@@ -48,9 +48,23 @@ sub Device_Models
     return (\@device_models);
 }
 
+=head2 Device_Services($device)
+
+=cut
+
+sub Device_Services
+{
+    my ($self, $device) = @_;
+
+    my @device_services = Octopussy::Device::Services_Configurations($device);
+
+    return (\@device_services);
+}
+
 =head2 Device_Types
 
 =cut
+
 sub Device_Types
 {
 	my $self = shift;

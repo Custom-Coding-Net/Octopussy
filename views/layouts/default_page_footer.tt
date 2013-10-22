@@ -3,3 +3,5 @@ Powered by <a href="http://perldancer.org/">Dancer</a> / Designed with <a href="
 </div>
 <script src="[% request.uri_base %]/js/bootstrap.min.js" type="text/javascript">
 </script>
+<script src="[% request.uri_base %]/js/bootstrap-tooltip.js" type="text/javascript">
+</script>

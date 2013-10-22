@@ -11,7 +11,7 @@ get '/list' => sub
 
 get '/services/:devicename' => sub
 {
-	template 'octopussy/device/list', { device => params->{'devicename'} };
+	template 'octopussy/device/services', { device => params->{'devicename'} };
 };
 
 1;
