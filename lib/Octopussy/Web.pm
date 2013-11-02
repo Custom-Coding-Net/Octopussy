@@ -6,10 +6,14 @@ Octopussy::Web
 
 package Octopussy::Web;
 
+use strict;
+use warnings;
+
 use Dancer ':syntax';
 
 use Web::Core::JSON;
 
+use Octopussy::Web::Alert;
 use Octopussy::Web::Device;
 use Octopussy::Web::User;
 
@@ -17,7 +21,7 @@ our $VERSION = '1.2';
 
 prefix undef;
 
-=head1 HOOKS
+=head1 SUBROUTINES/METHODS
 
 =head2 HOOK 'before'
 
@@ -33,8 +37,6 @@ hook 'before' => sub
 		request->path_info('/user/login');
     }
 };
-
-=head1 ROUTES
 
 =head2 GET '/'
 

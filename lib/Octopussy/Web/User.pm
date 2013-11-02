@@ -1,10 +1,17 @@
-﻿package Octopussy::Web::User;
+=head1 NAME
+
+Octopussy::Web::User
+
+=cut
+
+package Octopussy::Web::User;
+
+use strict;
+use warnings;
 
 use Dancer ':syntax';
 
-prefix '/user';
-
-=head1 ROUTES
+=head1 SUBROUTINES/METHODS
 
 =head2 GET|POST '/user/login'
 
@@ -12,7 +19,7 @@ User login route
 
 =cut
 
-any ['get', 'post'] => '/login' => sub
+any ['get', 'post'] => '/user/login' => sub
 {
 	if (request->method() eq "POST") 
 	{
@@ -42,7 +49,7 @@ User logout route
 
 =cut
 
-get '/logout' => sub
+get '/user/logout' => sub
 {
 	session->destroy;
 	redirect '/user/login';
@@ -54,7 +61,7 @@ User Preferences route
 
 =cut
 
-any ['get', 'post'] => '/preferences' => sub
+any ['get', 'post'] => '/user/preferences' => sub
 {
 	template 'octopussy/user/preferences';
 };
