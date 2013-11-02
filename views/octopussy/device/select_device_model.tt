@@ -1,6 +1,36 @@
-<select name="select_device_model" id="select_device_model">
-<option value="" selected>-- [% loc("_DEVICE_MODEL") %] --</option>
-[% FOREACH dm IN ITTool.LogManagement.Device_Models %]
-	<option value="[% dm.name %]">[% dm.name %]</option>
-[% END %]
+<select name="select_device_model" id="select_device_model" class="input-medium">
 </select>
+<script type="text/javascript" charset="utf-8">
+function device_model_update()
+{
+	$('#select_device_model').empty();
+	$('#select_device_model').append(
+		new Option('-- [% loc("_DEVICE_MODEL") %] --', '', false, false));	
+	var device_type = $('#select_device_type').val();
+	if (device_type)
+	{
+		$.ajax({
+    		url:'/device/json/device_models/' + device_type,
+    		type:'GET',
+    		dataType: 'json',
+    		success: function(json) {
+        		$.each(json.device_models, function(i, value) 
+				{
+            		$('#select_device_model').append(
+						new Option(value.name, value.name, false, false));
+        		});
+       		}
+		});
+	}
+	$('#select_device_model').val('[% selected %]');
+}
+
+/* 
+** When device_type is changed , update the device_model selector
+*/
+$('#select_device_type').on('change', function() {
+    device_model_update();
+});
+
+device_model_update();
+</script>

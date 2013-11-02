@@ -1,0 +1,33 @@
+[% USE ITTool.LogManagement.Device %]
+[% USE ITTool.LogManagement.Storage %]
+[% dc = ITTool.LogManagement.Device.Configuration(device) %]
+[% sd = ITTool.LogManagement.Storage.Default() %]
+<h2>[% loc("_MSG_STORAGES_FOR_DEVICE", device) %]</h2>
+<h3></h3>
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<tbody>
+	<tr><td>[% loc("_DIR_INCOMING_LOGS") %]</td><td>[% sd.incoming %]</td></tr>
+	<tr><td>[% loc("_DIR_UNKNOWN_LOGS") %]</td><td>[% sd.unknown %]</td></tr>
+	<tr><td>[% loc("_DIR_KNOWN_LOGS") %]</td><td>[% sd.known %]</td></tr>
+</tbody>
+</table>
+
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+	<tr>
+	<th>[% loc("_SERVICE") %]</th>
+	<th>[% loc("_DIRECTORY") %]</th>
+	<th>[% loc("_LOGROTATE") %]</th>
+	</tr>
+</thead>
+<tbody>
+[% FOREACH service IN ITTool.LogManagement.Device.Services(device, 'sid') %]
+	[% storage = 'storage_' _ service.sid %]
+	<tr>
+	<td>[% service.sid %]</td>
+	<td>[% dc.$storage %]</td>
+	<td>[% service.logrotate %]</td>
+	</tr>
+[% END %]
+</tbody>
+</table>

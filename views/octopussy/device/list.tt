@@ -1,18 +1,18 @@
-[% USE ITTool.LogManagement %]
+[% USE ITTool.LogManagement.Device %]
 <table class="table table-bordered table-condensed table-hover table-stripped">
 <thead>
 <tr>
-<th>[% loc("_NAME") %]</th>
-<th>[% loc("_IP_ADDRESS") %]</th>
-<th>[% loc("_LOG_TYPE") %]</th>
-<th>[% loc("_DEVICE_TYPE") %] / [% loc("_DEVICE_MODEL") %]</th>
-<th>[% loc("_DESCRIPTION") %]</th>
-<th>[% loc("_STATUS") %]</th>
-<th>[% loc("_ACTION") %]</th>
+	<th>[% loc("_NAME") %]</th>
+	<th>[% loc("_IP_ADDRESS") %]</th>
+	<th>[% loc("_LOG_TYPE") %]</th>
+	<th>[% loc("_DEVICE_TYPE") %] / [% loc("_DEVICE_MODEL") %]</th>
+	<th>[% loc("_DESCRIPTION") %]</th>
+	<th>[% loc("_STATUS") %]</th>
+	<th>[% loc("_ACTION") %]</th>
 </tr>
 </thead>
 <tbody>
-[% FOREACH device IN ITTool.LogManagement.Devices %]
+[% FOREACH device IN ITTool.LogManagement.Device.Configurations %]
 <tr>
 <td>[% device.name %]</td>
 <td>[% device.address %]</td>
