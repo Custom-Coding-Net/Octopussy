@@ -20,7 +20,7 @@ use Octopussy::Web::Device;
 my @ROUTES = ( 
 	{ method => 'GET', url => '/device/list', code => '200' },
 	{ method => 'GET', url => '/device/services/devicename', code => '200' },
-#	{ method => 'GET', url => '/device/storages/devicename', code => '200' },
+	{ method => 'GET', url => '/device/storages/devicename', code => '200' },
 	);
 
 foreach my $r (@ROUTES)
