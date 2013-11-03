@@ -1121,31 +1121,31 @@ msgid "_ZOOM_OUT"
 msgstr "§ZOOM_OUT§"
 
 msgid "_DLG_DELETE_ALERT"
-msgstr "§Do you really want to delete Alert '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Alert '%1' ?§"
 
 msgid "_DLG_DELETE_CONTACT"
-msgstr "§Do you really want to delete Contact '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Contact '%1' ?§"
 
 msgid "_DLG_DELETE_DEVICE"
-msgstr "§Do you really want to delete Device '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Device '%1' ?§"
 
 msgid "_DLG_DELETE_DEVICEGROUP"
-msgstr "§Do you really want to delete Device Group '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Device Group '%1' ?§"
 
 msgid "_DLG_DELETE_DEVICE_SERVICE"
-msgstr "§Do you really want to delete Service '%%arg1%%' from Device '%%arg2%%' ?§"
+msgstr "§Do you really want to delete Service '%1' from Device '%2' ?§"
 
 msgid "_DLG_DELETE_LOCATION_BUILDING"
-msgstr "§Do you really want to delete Location City '%%arg1%%' Building '%%arg2%%' ?§"
+msgstr "§Do you really want to delete Location City '%1' Building '%2' ?§"
 
 msgid "_DLG_DELETE_LOCATION_CITY"
-msgstr "§Do you really want to delete Location City '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Location City '%1' ?§"
 
 msgid "_DLG_DELETE_LOCATION_RACK"
-msgstr "§Do you really want to delete Location City '%%arg1%%' Building '%%arg2%%' Room '%%arg3%%' Rack '%%arg4%%' ?§"
+msgstr "§Do you really want to delete Location City '%1' Building '%2' Room '%3' Rack '%4' ?§"
 
 msgid "_DLG_DELETE_LOCATION_ROOM"
-msgstr "§Do you really want to delete Location City '%%arg1%%' Building '%%arg2%%' Room '%%arg3%%' ?§"
+msgstr "§Do you really want to delete Location City '%1' Building '%2' Room '%3' ?§"
 
 msgid "_DLG_DELETE_LOG"
 msgstr "§Do you really want to delete this Log line #%%log%% ?§"
@@ -1157,61 +1157,61 @@ msgid "_DLG_DELETE_MESSAGE"
 msgstr "§Do you really want to delete Message '%%msg%%' from Service '%%service%%' ?§"
 
 msgid "_DLG_DELETE_REPORT"
-msgstr "§Do you really want to delete Report '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Report '%1' ?§"
 
 msgid "_DLG_DELETE_REPORT_DATA"
-msgstr "§Do you really want to delete Report '%%arg1%%' '%%arg2%%' ?§"
+msgstr "§Do you really want to delete Report '%1' '%2' ?§"
 
 msgid "_DLG_DELETE_REPORT_MONTH"
-msgstr "§Do you really want to delete Report Month '%%arg1%%' '%%arg2%% %%arg3%%' ?§"
+msgstr "§Do you really want to delete Report Month '%1' '%2 %3' ?§"
 
 msgid "_DLG_DELETE_REPORT_SCHEDULE"
-msgstr "§Do you really want to delete Report Schedule '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Report Schedule '%1' ?§"
 
 msgid "_DLG_DELETE_SEARCH_TEMPLATE"
-msgstr "§Do you really want to delete Search Template '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Search Template '%1' ?§"
 
 msgid "_DLG_DELETE_SERVICE"
-msgstr "§Do you really want to delete Service '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Service '%1' ?§"
 
 msgid "_DLG_DELETE_SERVICEGROUP"
-msgstr "§Do you really want to delete Service Group '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Service Group '%1' ?§"
 
 msgid "_DLG_DELETE_SERVICEGROUP_SERVICE"
-msgstr "§Do you really want to delete Service '%%arg2%%' from Service Group '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Service '%2' from Service Group '%1' ?§"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT"
-msgstr "§Do you really want to delete Statistic Report '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Statistic Report '%1' ?§"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT_SCHEDULE"
-msgstr "§Do you really want to delete Statistic Report Schedule '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Statistic Report Schedule '%1' ?§"
 
 msgid "_DLG_DELETE_STORAGE"
-msgstr "§Do you really want to delete Storage '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Storage '%1' ?§"
 
 msgid "_DLG_DELETE_TABLE"
-msgstr "§Do you really want to delete Table '%%arg1%%' ?§"
+msgstr "§Do you really want to delete Table '%1' ?§"
 
 msgid "_DLG_DELETE_TIMEPERIOD"
-msgstr "§Do you really want to delete TimePeriod '%%arg1%%' ?§"
+msgstr "§Do you really want to delete TimePeriod '%1' ?§"
 
 msgid "_DLG_DELETE_USER"
-msgstr "§Do you really want to delete User '%%arg1%%' ?§"
+msgstr "§Do you really want to delete User '%1' ?§"
 
 msgid "_DLG_LOGOUT"
 msgstr "§Do you really want to logout ?§"
 
 msgid "_DLG_PARSE_PAUSE"
-msgstr "§Do you really want to pause parsing Device '%%arg1%%' ?§"
+msgstr "§Do you really want to pause parsing Device '%1' ?§"
 
 msgid "_DLG_PARSE_START"
-msgstr "§Do you really want to start parsing Device '%%arg1%%' ?§"
+msgstr "§Do you really want to start parsing Device '%1' ?§"
 
 msgid "_DLG_PARSE_STOP"
-msgstr "§Do you really want to stop parsing Device '%%arg1%%' ?§"
+msgstr "§Do you really want to stop parsing Device '%1' ?§"
 
 msgid "_DLG_RESTORE_CONFIG"
-msgstr "§Do you really want to restore configuration from file '%%arg1%%' ?§"
+msgstr "§Do you really want to restore configuration from file '%1' ?§"
 
 msgid "_MSG_ALERT_RAISED_ONLY"
 msgstr "Тревога будет поднята, только если мы попадём n раз меньше, чем за d секунд на одном устройстве"

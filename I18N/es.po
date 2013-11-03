@@ -1121,31 +1121,31 @@ msgid "_ZOOM_OUT"
 msgstr "§ZOOM_OUT§"
 
 msgid "_DLG_DELETE_ALERT"
-msgstr "Estas seguro de que quieres borrar la Alerta '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar la Alerta '%1' ?"
 
 msgid "_DLG_DELETE_CONTACT"
-msgstr "Estas seguro de que quieres borrar el Contacto '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Contacto '%1' ?"
 
 msgid "_DLG_DELETE_DEVICE"
-msgstr "Estas seguro de que quieres borrar el Dispositivo '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Dispositivo '%1' ?"
 
 msgid "_DLG_DELETE_DEVICEGROUP"
-msgstr "Estas seguro de que quieres borrar el Grupo de Dispositivos '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Grupo de Dispositivos '%1' ?"
 
 msgid "_DLG_DELETE_DEVICE_SERVICE"
-msgstr "Estas seguro de que quieres borrar el Servicio '%%arg1%%' del Dispositivo '%%arg2%%' ?"
+msgstr "Estas seguro de que quieres borrar el Servicio '%1' del Dispositivo '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_BUILDING"
-msgstr "Estas seguro de que quieres borrar la Ciudad '%%arg1%%' Edificio '%%arg2%%' ?"
+msgstr "Estas seguro de que quieres borrar la Ciudad '%1' Edificio '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_CITY"
-msgstr "Estas seguro de que quieres borrar la Ciudad '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar la Ciudad '%1' ?"
 
 msgid "_DLG_DELETE_LOCATION_RACK"
-msgstr "Estas seguro de que quieres borrar la Ciudad '%%arg1%%' Edificio '%%arg2%%' Habitacion '%%arg3%%' Rack '%%arg4%%' ?"
+msgstr "Estas seguro de que quieres borrar la Ciudad '%1' Edificio '%2' Habitacion '%3' Rack '%4' ?"
 
 msgid "_DLG_DELETE_LOCATION_ROOM"
-msgstr "Estas seguro de que quieres borrar la Ciudad '%%arg1%%' Edificio '%%arg2%%' Habitacion '%%arg3%%' ?"
+msgstr "Estas seguro de que quieres borrar la Ciudad '%1' Edificio '%2' Habitacion '%3' ?"
 
 msgid "_DLG_DELETE_LOG"
 msgstr "Estas seguro de que quieres borrar la linea de Log #%%log%% ?"
@@ -1157,61 +1157,61 @@ msgid "_DLG_DELETE_MESSAGE"
 msgstr "Estas seguro de que quieres borrar el Mensaje '%%msg%%' del Servicio '%%service%%' ?"
 
 msgid "_DLG_DELETE_REPORT"
-msgstr "Estas seguro de que quieres borrar el Informe '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Informe '%1' ?"
 
 msgid "_DLG_DELETE_REPORT_DATA"
-msgstr "Estas seguro de que quieres borrar el Informe '%%arg1%%' '%%arg2%%' ?"
+msgstr "Estas seguro de que quieres borrar el Informe '%1' '%2' ?"
 
 msgid "_DLG_DELETE_REPORT_MONTH"
 msgstr "§DLG_DELETE_REPORT_MONTH§"
 
 msgid "_DLG_DELETE_REPORT_SCHEDULE"
-msgstr "Estas seguro de que quieres borrar la planificacion del Informe '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar la planificacion del Informe '%1' ?"
 
 msgid "_DLG_DELETE_SEARCH_TEMPLATE"
-msgstr "Estas seguro de que quieres borrar la plantilla '%%arg1%%' '%%arg2%%' ?"
+msgstr "Estas seguro de que quieres borrar la plantilla '%1' '%2' ?"
 
 msgid "_DLG_DELETE_SERVICE"
-msgstr "Estas seguro de que quieres borrar el Servicio '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Servicio '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP"
-msgstr "Estas seguro de que quieres borrar el Grupo de Servicio '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Grupo de Servicio '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP_SERVICE"
-msgstr "Estas seguro de que quieres borrar el Servicio '%%arg2%%' del Grupo de Servicio '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Servicio '%2' del Grupo de Servicio '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT"
-msgstr "Estas seguro de que quieres borrar el Informe Estadistico '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Informe Estadistico '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT_SCHEDULE"
-msgstr "Estas seguro de que quiere borrar la planificación del Informe Esatdistico '%%arg1%%' ?"
+msgstr "Estas seguro de que quiere borrar la planificación del Informe Esatdistico '%1' ?"
 
 msgid "_DLG_DELETE_STORAGE"
-msgstr "Estas seguro de que quieres borrar el almacenamiento '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el almacenamiento '%1' ?"
 
 msgid "_DLG_DELETE_TABLE"
-msgstr "Estas seguro de que quieres borrar la Tabla '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar la Tabla '%1' ?"
 
 msgid "_DLG_DELETE_TIMEPERIOD"
-msgstr "Estas seguro de que quieres borrar el Periodo de Tiempo '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar el Periodo de Tiempo '%1' ?"
 
 msgid "_DLG_DELETE_USER"
-msgstr "Estas seguro de que quieres borrar al Usuario '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres borrar al Usuario '%1' ?"
 
 msgid "_DLG_LOGOUT"
 msgstr "Estas seguro de que quieres desconectar ?"
 
 msgid "_DLG_PARSE_PAUSE"
-msgstr "Estas seguro de que quieres pausar el analisis del Dispositivo '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres pausar el analisis del Dispositivo '%1' ?"
 
 msgid "_DLG_PARSE_START"
-msgstr "Estas seguro de que quieres comenzar a analizar el Dispositivo '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres comenzar a analizar el Dispositivo '%1' ?"
 
 msgid "_DLG_PARSE_STOP"
-msgstr "Estas seguro de que quieres dejar de analizar el Dispositivo '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres dejar de analizar el Dispositivo '%1' ?"
 
 msgid "_DLG_RESTORE_CONFIG"
-msgstr "Estas seguro de que quieres restaurar la configuración del fichero '%%arg1%%' ?"
+msgstr "Estas seguro de que quieres restaurar la configuración del fichero '%1' ?"
 
 msgid "_MSG_ALERT_RAISED_ONLY"
 msgstr "Se lanzará la alerta solo si se registra n veces en menos de d segundos en un dispositivo"

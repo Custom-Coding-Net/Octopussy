@@ -1121,31 +1121,31 @@ msgid "_ZOOM_OUT"
 msgstr "§ZOOM_OUT§"
 
 msgid "_DLG_DELETE_ALERT"
-msgstr "Vuoi rimuovere realmente l'allarme '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente l'allarme '%1' ?"
 
 msgid "_DLG_DELETE_CONTACT"
-msgstr "Vuoi rimuovere realmente il contatto '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il contatto '%1' ?"
 
 msgid "_DLG_DELETE_DEVICE"
-msgstr "Vuoi rimuovere realmente l'apparato '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente l'apparato '%1' ?"
 
 msgid "_DLG_DELETE_DEVICEGROUP"
-msgstr "Vuoi rimuovere realmente il gruppo apparati '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il gruppo apparati '%1' ?"
 
 msgid "_DLG_DELETE_DEVICE_SERVICE"
-msgstr "Vuoi rimuovere realmente il servizio '%%arg1%%' dall'apparato '%%arg2%%' ?"
+msgstr "Vuoi rimuovere realmente il servizio '%1' dall'apparato '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_BUILDING"
-msgstr "Vuoi rimuovere realmente la località '%%arg1%%' edificio '%%arg2%%' ?"
+msgstr "Vuoi rimuovere realmente la località '%1' edificio '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_CITY"
-msgstr "Vuoi rimuovere realmente la località '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente la località '%1' ?"
 
 msgid "_DLG_DELETE_LOCATION_RACK"
-msgstr "Vuoi rimuovere realmente la località '%%arg1%%' edificio '%%arg2%%' stanza '%%arg3%%' Rack '%%arg4%%' ?"
+msgstr "Vuoi rimuovere realmente la località '%1' edificio '%2' stanza '%3' Rack '%4' ?"
 
 msgid "_DLG_DELETE_LOCATION_ROOM"
-msgstr "Vuoi rimuovere realmente la località '%%arg1%%' edificio '%%arg2%%' stanza '%%arg3%%' ?"
+msgstr "Vuoi rimuovere realmente la località '%1' edificio '%2' stanza '%3' ?"
 
 msgid "_DLG_DELETE_LOG"
 msgstr "Vuoi rimuovere realmente la riga #%%log%% del log?"
@@ -1157,61 +1157,61 @@ msgid "_DLG_DELETE_MESSAGE"
 msgstr "Vuoi rimuovere realmente il messaggio '%%msg%%' dal servizio '%%service%%' ?"
 
 msgid "_DLG_DELETE_REPORT"
-msgstr "Vuoi rimuovere realmente il Report '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il Report '%1' ?"
 
 msgid "_DLG_DELETE_REPORT_DATA"
-msgstr "Vuoi rimuovere realmente il Report '%%arg1%%' '%%arg2%%' ?"
+msgstr "Vuoi rimuovere realmente il Report '%1' '%2' ?"
 
 msgid "_DLG_DELETE_REPORT_MONTH"
-msgstr "Vuoi rimuovere realmente il Report Mensile '%%arg1%%' '%%arg2%% %%arg3%%' ?"
+msgstr "Vuoi rimuovere realmente il Report Mensile '%1' '%2 %3' ?"
 
 msgid "_DLG_DELETE_REPORT_SCHEDULE"
-msgstr "Vuoi rimuovere realmente il Report Schedulato '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il Report Schedulato '%1' ?"
 
 msgid "_DLG_DELETE_SEARCH_TEMPLATE"
-msgstr "Vuoi rimuovere realmente il modello di ricerca '%%arg1%%' dall'utente '%%arg2%%' ?"
+msgstr "Vuoi rimuovere realmente il modello di ricerca '%1' dall'utente '%2' ?"
 
 msgid "_DLG_DELETE_SERVICE"
-msgstr "Vuoi rimuovere realmente il servizio '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il servizio '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP"
-msgstr "Vuoi rimuovere realmente il gruppo servizi '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il gruppo servizi '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP_SERVICE"
-msgstr "Vuoi rimuovere realmente il servizio '%%arg2%%' dal gruppo servizi '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il servizio '%2' dal gruppo servizi '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT"
-msgstr "Vuoi rimuovere realmente il report statistiche '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il report statistiche '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT_SCHEDULE"
-msgstr "Do you really want to delete Statistic Report Schedule '%%arg1%%' ?"
+msgstr "Do you really want to delete Statistic Report Schedule '%1' ?"
 
 msgid "_DLG_DELETE_STORAGE"
-msgstr "Vuoi rimuovere realmente Storage '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente Storage '%1' ?"
 
 msgid "_DLG_DELETE_TABLE"
-msgstr "Vuoi rimuovere realmente la tabella '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente la tabella '%1' ?"
 
 msgid "_DLG_DELETE_TIMEPERIOD"
-msgstr "Vuoi rimuovere realmente il periodo temporale '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente il periodo temporale '%1' ?"
 
 msgid "_DLG_DELETE_USER"
-msgstr "Vuoi rimuovere realmente l'utente '%%arg1%%' ?"
+msgstr "Vuoi rimuovere realmente l'utente '%1' ?"
 
 msgid "_DLG_LOGOUT"
 msgstr "Vuoi realmente scollegarti?"
 
 msgid "_DLG_PARSE_PAUSE"
-msgstr "Vuoi interrompere realmente l'interrogazione dell'apparato '%%arg1%%' ?"
+msgstr "Vuoi interrompere realmente l'interrogazione dell'apparato '%1' ?"
 
 msgid "_DLG_PARSE_START"
-msgstr "Vuoi iniziare realmente l'interrogazione dell'apparato '%%arg1%%' ?"
+msgstr "Vuoi iniziare realmente l'interrogazione dell'apparato '%1' ?"
 
 msgid "_DLG_PARSE_STOP"
-msgstr "Vuoi interrompere realmente l'interrogazione dell'apparato '%%arg1%%' ?"
+msgstr "Vuoi interrompere realmente l'interrogazione dell'apparato '%1' ?"
 
 msgid "_DLG_RESTORE_CONFIG"
-msgstr "Vuoi ripristinare realmente la configurazione dal file '%%arg1%%' ?"
+msgstr "Vuoi ripristinare realmente la configurazione dal file '%1' ?"
 
 msgid "_MSG_ALERT_RAISED_ONLY"
 msgstr "L'allarme sarà lanciato solo se succederà per n volte in meno di d secondi in un apparato"

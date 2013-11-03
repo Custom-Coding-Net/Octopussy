@@ -1121,31 +1121,31 @@ msgid "_ZOOM_OUT"
 msgstr "§ZOOM_OUT§"
 
 msgid "_DLG_DELETE_ALERT"
-msgstr "Voce quer apagar o Alerta '%%arg1%%' ?"
+msgstr "Voce quer apagar o Alerta '%1' ?"
 
 msgid "_DLG_DELETE_CONTACT"
-msgstr "Voce quer apagar o Contato'%%arg1%%' ?"
+msgstr "Voce quer apagar o Contato'%1' ?"
 
 msgid "_DLG_DELETE_DEVICE"
-msgstr "Voce quer apagar o Ativo'%%arg1%%' ?"
+msgstr "Voce quer apagar o Ativo'%1' ?"
 
 msgid "_DLG_DELETE_DEVICEGROUP"
-msgstr "Voce quer apagar o Grupo de Ativos'%%arg1%%' ?"
+msgstr "Voce quer apagar o Grupo de Ativos'%1' ?"
 
 msgid "_DLG_DELETE_DEVICE_SERVICE"
-msgstr "Voce quer apagar o Servico'%%arg1%%' from Ativo '%%arg2%%' ?"
+msgstr "Voce quer apagar o Servico'%1' from Ativo '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_BUILDING"
-msgstr "Voce quer mesmo apagar a Cidade de Localizacao'%%arg1%%' Predio '%%arg2%%' ?"
+msgstr "Voce quer mesmo apagar a Cidade de Localizacao'%1' Predio '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_CITY"
-msgstr "Voce quer mesmo apagar a Cidade de Localizacao '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar a Cidade de Localizacao '%1' ?"
 
 msgid "_DLG_DELETE_LOCATION_RACK"
-msgstr "Voce quer mesmo apagar a Cidade de Localizacao '%%arg1%%' Predio '%%arg2%%' Sala '%%arg3%%' Rack '%%arg4%%' ?"
+msgstr "Voce quer mesmo apagar a Cidade de Localizacao '%1' Predio '%2' Sala '%3' Rack '%4' ?"
 
 msgid "_DLG_DELETE_LOCATION_ROOM"
-msgstr "Voce quer mesmo apagar a Cidade de Localizacao '%%arg1%%' Predio '%%arg2%%' Sala '%%arg3%%' ?"
+msgstr "Voce quer mesmo apagar a Cidade de Localizacao '%1' Predio '%2' Sala '%3' ?"
 
 msgid "_DLG_DELETE_LOG"
 msgstr "Voce quer  mesmo apagar a Linha de Log #%%log%% ?"
@@ -1157,61 +1157,61 @@ msgid "_DLG_DELETE_MESSAGE"
 msgstr "Voce quer mesmo apagar a Mensagem '%%msg%%' from Servico '%%service%%' ?"
 
 msgid "_DLG_DELETE_REPORT"
-msgstr "Voce quer mesmo apagar o Relatorio '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Relatorio '%1' ?"
 
 msgid "_DLG_DELETE_REPORT_DATA"
-msgstr "Voce quer mesmo apagar o Relatorio '%%arg1%%' '%%arg2%%' ?"
+msgstr "Voce quer mesmo apagar o Relatorio '%1' '%2' ?"
 
 msgid "_DLG_DELETE_REPORT_MONTH"
-msgstr "Voce quer mesmo apagar o Mes de Relatorios '%%arg1%%' '%%arg2%% %%arg3%%' ?"
+msgstr "Voce quer mesmo apagar o Mes de Relatorios '%1' '%2 %3' ?"
 
 msgid "_DLG_DELETE_REPORT_SCHEDULE"
-msgstr "Voce quer mesmo apagar o Agendamento de Relatorio '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Agendamento de Relatorio '%1' ?"
 
 msgid "_DLG_DELETE_SEARCH_TEMPLATE"
-msgstr "Voce quer mesmo apagar o Modelo de Busca '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Modelo de Busca '%1' ?"
 
 msgid "_DLG_DELETE_SERVICE"
-msgstr "Voce quer mesmo apagar o Servico '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Servico '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP"
-msgstr "Voce quer mesmo apagar o Grupo de  Servicos '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Grupo de  Servicos '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP_SERVICE"
-msgstr "Voce quer mesmo apagar o Servico '%%arg2%%' do Grupo de Servicos '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Servico '%2' do Grupo de Servicos '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT"
-msgstr "Voce quer mesmo apagar o Relatorio de Estatisticas '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Relatorio de Estatisticas '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT_SCHEDULE"
-msgstr "Voce quer mesmo apgar o agendamento do relatorio de '%%arg1%%' ?"
+msgstr "Voce quer mesmo apgar o agendamento do relatorio de '%1' ?"
 
 msgid "_DLG_DELETE_STORAGE"
-msgstr "Voce quer mesmo apagar o Armazenamento '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Armazenamento '%1' ?"
 
 msgid "_DLG_DELETE_TABLE"
-msgstr "Voce quer mesmo apagar a Tabela'%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar a Tabela'%1' ?"
 
 msgid "_DLG_DELETE_TIMEPERIOD"
-msgstr "Voce quer mesmo apagar o Periodo de Tempo '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Periodo de Tempo '%1' ?"
 
 msgid "_DLG_DELETE_USER"
-msgstr "Voce quer mesmo apagar o Usuario '%%arg1%%' ?"
+msgstr "Voce quer mesmo apagar o Usuario '%1' ?"
 
 msgid "_DLG_LOGOUT"
 msgstr "Voce quer realmente deslogar-se ?"
 
 msgid "_DLG_PARSE_PAUSE"
-msgstr "Voce quer  mesmo pausar o parsing de Ativos '%%arg1%%' ?"
+msgstr "Voce quer  mesmo pausar o parsing de Ativos '%1' ?"
 
 msgid "_DLG_PARSE_START"
-msgstr "Voce quer mesmo iniciar o parsing de Ativos '%%arg1%%' ?"
+msgstr "Voce quer mesmo iniciar o parsing de Ativos '%1' ?"
 
 msgid "_DLG_PARSE_STOP"
-msgstr "Voce quer mesmo parar o parsing de Ativos '%%arg1%%' ?"
+msgstr "Voce quer mesmo parar o parsing de Ativos '%1' ?"
 
 msgid "_DLG_RESTORE_CONFIG"
-msgstr "Voce que rmesmo recuperar as configuracoes do arquivo '%%arg1%%' ?"
+msgstr "Voce que rmesmo recuperar as configuracoes do arquivo '%1' ?"
 
 msgid "_MSG_ALERT_RAISED_ONLY"
 msgstr "O alerta vai ser disparado somente se acontecer n vezes em menos de d secundos em um dispositivo"

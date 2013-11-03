@@ -1121,31 +1121,31 @@ msgid "_ZOOM_OUT"
 msgstr "§ZOOM_OUT§"
 
 msgid "_DLG_DELETE_ALERT"
-msgstr "Wollen Sie wirklich den Alarm '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Alarm '%1' loeschen ?"
 
 msgid "_DLG_DELETE_CONTACT"
-msgstr "Wollen Sie wirklich den Kontakt '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Kontakt '%1' loeschen ?"
 
 msgid "_DLG_DELETE_DEVICE"
-msgstr "Wollen Sie wirklich das Geraet '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich das Geraet '%1' loeschen ?"
 
 msgid "_DLG_DELETE_DEVICEGROUP"
-msgstr "Wollen Sie wirklich die Geraetegruppe '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich die Geraetegruppe '%1' loeschen ?"
 
 msgid "_DLG_DELETE_DEVICE_SERVICE"
-msgstr "Wollen Sie wirklich den Service '%%arg1%%' von Geraet '%%arg2%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Service '%1' von Geraet '%2' loeschen ?"
 
 msgid "_DLG_DELETE_LOCATION_BUILDING"
-msgstr "Wollen Sie wirklich Standort '%%arg1%%' Gebaeude '%%arg2%%' loeschen ?"
+msgstr "Wollen Sie wirklich Standort '%1' Gebaeude '%2' loeschen ?"
 
 msgid "_DLG_DELETE_LOCATION_CITY"
-msgstr "Wollen Sie wirklich Standort '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich Standort '%1' loeschen ?"
 
 msgid "_DLG_DELETE_LOCATION_RACK"
-msgstr "Wollen Sie wirklich den Standort '%%arg1%%' Gebaeude '%%arg2%%' Raum '%%arg3%%' Rack '%%arg4%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Standort '%1' Gebaeude '%2' Raum '%3' Rack '%4' loeschen ?"
 
 msgid "_DLG_DELETE_LOCATION_ROOM"
-msgstr "Wollen Sie wirklich den Standort '%%arg1%%' Gebaeude '%%arg2%%' Raum '%%arg3%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Standort '%1' Gebaeude '%2' Raum '%3' loeschen ?"
 
 msgid "_DLG_DELETE_LOG"
 msgstr "Wollen Sie wirklich diese Logzeile loeschen ?"
@@ -1157,61 +1157,61 @@ msgid "_DLG_DELETE_MESSAGE"
 msgstr "Wollen Sie wirklich die Nachricht '%%msg%%' von Service '%%service%%' loeschen ?"
 
 msgid "_DLG_DELETE_REPORT"
-msgstr "Wollen Sie wirklich den Bericht '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Bericht '%1' loeschen ?"
 
 msgid "_DLG_DELETE_REPORT_DATA"
-msgstr "Wollen Sie wirklich Report '%%arg1%%' '%%arg2%%' loeschen ?"
+msgstr "Wollen Sie wirklich Report '%1' '%2' loeschen ?"
 
 msgid "_DLG_DELETE_REPORT_MONTH"
-msgstr "§DLG_DELETE_REPORT_MONTH '%%arg1%%' '%%arg2%% %%arg3%%' ?§"
+msgstr "§DLG_DELETE_REPORT_MONTH '%1' '%2 %3' ?§"
 
 msgid "_DLG_DELETE_REPORT_SCHEDULE"
-msgstr "Wollen Sie wirklich die Berichts-Zeitplanung '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich die Berichts-Zeitplanung '%1' loeschen ?"
 
 msgid "_DLG_DELETE_SEARCH_TEMPLATE"
-msgstr "§DLG_DELETE_SEARCH_TEMPLATE '%%arg1%%' '%%arg2%%' ?§"
+msgstr "§DLG_DELETE_SEARCH_TEMPLATE '%1' '%2' ?§"
 
 msgid "_DLG_DELETE_SERVICE"
-msgstr "Wollen Sie wirklich den Service '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Service '%1' loeschen ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP"
-msgstr "§DLG_DELETE_SERVICEGROUP '%%arg1%%' ?§"
+msgstr "§DLG_DELETE_SERVICEGROUP '%1' ?§"
 
 msgid "_DLG_DELETE_SERVICEGROUP_SERVICE"
-msgstr "§DLG_DELETE_SERVICEGROUP_SERVICE '%%arg2%%' FROM '%%arg1%%' ?§"
+msgstr "§DLG_DELETE_SERVICEGROUP_SERVICE '%2' FROM '%1' ?§"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT"
-msgstr "Wollen Sie wirklich die Statistik '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich die Statistik '%1' loeschen ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT_SCHEDULE"
-msgstr "Wollen Sie wirklich den Zeitplan '%%arg1%%' der Statistikberichte loeschen ?"
+msgstr "Wollen Sie wirklich den Zeitplan '%1' der Statistikberichte loeschen ?"
 
 msgid "_DLG_DELETE_STORAGE"
-msgstr "§DLG_DELETE_STORAGE '%%arg1%%' ?§"
+msgstr "§DLG_DELETE_STORAGE '%1' ?§"
 
 msgid "_DLG_DELETE_TABLE"
-msgstr "Wollen Sie wirklich Tabelle '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich Tabelle '%1' loeschen ?"
 
 msgid "_DLG_DELETE_TIMEPERIOD"
-msgstr "Wollen Sie wirklich den Zeitabschnitt '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Zeitabschnitt '%1' loeschen ?"
 
 msgid "_DLG_DELETE_USER"
-msgstr "Wollen Sie wirklich den Benutzer '%%arg1%%' loeschen ?"
+msgstr "Wollen Sie wirklich den Benutzer '%1' loeschen ?"
 
 msgid "_DLG_LOGOUT"
 msgstr "Wollen Sie sich wirklich abmelden ?"
 
 msgid "_DLG_PARSE_PAUSE"
-msgstr "Wollen Sie wirklich das Analysieren der Maschine '%%arg1%%' unterbrechen ?"
+msgstr "Wollen Sie wirklich das Analysieren der Maschine '%1' unterbrechen ?"
 
 msgid "_DLG_PARSE_START"
-msgstr "Wollen Sie wirklich die Analyse der Maschine '%%arg1%%' starten ?"
+msgstr "Wollen Sie wirklich die Analyse der Maschine '%1' starten ?"
 
 msgid "_DLG_PARSE_STOP"
-msgstr "Wollen Sie wirklich die Analyse der Maschine '%%arg1%%' stoppen ?"
+msgstr "Wollen Sie wirklich die Analyse der Maschine '%1' stoppen ?"
 
 msgid "_DLG_RESTORE_CONFIG"
-msgstr "§DLG_RESTORE_CONFIG '%%arg1%%' ?§"
+msgstr "§DLG_RESTORE_CONFIG '%1' ?§"
 
 msgid "_MSG_ALERT_RAISED_ONLY"
 msgstr "§MSG_ALERT_RAISED_ONLY§"

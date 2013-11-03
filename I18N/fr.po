@@ -1124,31 +1124,31 @@ msgid "_ZOOM_OUT"
 msgstr "Zoom Arrière"
 
 msgid "_DLG_DELETE_ALERT"
-msgstr "Voulez vous vraiment supprimer l'Alerte '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer l'Alerte '%1' ?"
 
 msgid "_DLG_DELETE_CONTACT"
-msgstr "Voulez vous vraiment supprimer le Contact '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Contact '%1' ?"
 
 msgid "_DLG_DELETE_DEVICE"
-msgstr "Voulez vous vraiment supprimer la Machine '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer la Machine '%1' ?"
 
 msgid "_DLG_DELETE_DEVICEGROUP"
-msgstr "Voulez vous vraiment supprimer le Groupe d'Equipements '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Groupe d'Equipements '%1' ?"
 
 msgid "_DLG_DELETE_DEVICE_SERVICE"
-msgstr "Voulez vous vraiment supprimer le Service '%%arg1%%' de la Machine '%%arg2%%' ?"
+msgstr "Voulez vous vraiment supprimer le Service '%1' de la Machine '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_BUILDING"
-msgstr "Voulez vous vraiment supprimer la Location Ville '%%arg1%%' Batiment '%%arg2%%' ?"
+msgstr "Voulez vous vraiment supprimer la Location Ville '%1' Batiment '%2' ?"
 
 msgid "_DLG_DELETE_LOCATION_CITY"
-msgstr "Voulez vous vraiment supprimer la Location Ville '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer la Location Ville '%1' ?"
 
 msgid "_DLG_DELETE_LOCATION_RACK"
-msgstr "Voulez vous vraiment supprimer la Location Ville '%%arg1%%' Batiment '%%arg2%%' Salle '%%arg3%%' Rack '%%arg4%%'?"
+msgstr "Voulez vous vraiment supprimer la Location Ville '%1' Batiment '%2' Salle '%3' Rack '%4'?"
 
 msgid "_DLG_DELETE_LOCATION_ROOM"
-msgstr "Voulez vous vraiment supprimer la Location Ville '%%arg1%%' Batiment '%%arg2%%' Salle '%%arg3%%' ?"
+msgstr "Voulez vous vraiment supprimer la Location Ville '%1' Batiment '%2' Salle '%3' ?"
 
 msgid "_DLG_DELETE_LOG"
 msgstr "Voulez vous vraiment supprimer la ligne de Log #%%log%% ?"
@@ -1160,61 +1160,61 @@ msgid "_DLG_DELETE_MESSAGE"
 msgstr "Voulez vous vraiment supprimer le Message '%%msg%%' du Service '%%service%%' ?"
 
 msgid "_DLG_DELETE_REPORT"
-msgstr "Voulez vous vraiment supprimer le Rapport '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Rapport '%1' ?"
 
 msgid "_DLG_DELETE_REPORT_DATA"
-msgstr "Voulez vous vraiment supprimer le Rapport '%%arg1%%' '%%arg2%%' ?"
+msgstr "Voulez vous vraiment supprimer le Rapport '%1' '%2' ?"
 
 msgid "_DLG_DELETE_REPORT_MONTH"
-msgstr "Voulez vous vraiment supprimer le Mois de Rapport '%%arg1%%' '%%arg2%% %%arg3%%' ?"
+msgstr "Voulez vous vraiment supprimer le Mois de Rapport '%1' '%2 %3' ?"
 
 msgid "_DLG_DELETE_REPORT_SCHEDULE"
-msgstr "Voulez vous vraiment supprimer la planification du Rapport '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer la planification du Rapport '%1' ?"
 
 msgid "_DLG_DELETE_SEARCH_TEMPLATE"
-msgstr "Voulez vous vraiment supprimer le Modèle de Recherche '%%arg1%%' de l'utilisateur '%%arg2%%' ?"
+msgstr "Voulez vous vraiment supprimer le Modèle de Recherche '%1' de l'utilisateur '%2' ?"
 
 msgid "_DLG_DELETE_SERVICE"
-msgstr "Voulez vous vraiment supprimer le Service '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Service '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP"
-msgstr "Voulez vous vraiment supprimer le Groupe de Services '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Groupe de Services '%1' ?"
 
 msgid "_DLG_DELETE_SERVICEGROUP_SERVICE"
-msgstr "Voulez vous vraiment supprimer le Service '%%arg2%%' du Groupe de Services '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Service '%2' du Groupe de Services '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT"
-msgstr "Voulez vous vraiment supprimer le Rapport Statistique '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Rapport Statistique '%1' ?"
 
 msgid "_DLG_DELETE_STATISTIC_REPORT_SCHEDULE"
-msgstr "Voulez vous vraiment supprimer la Planification du Rapport Statistique '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer la Planification du Rapport Statistique '%1' ?"
 
 msgid "_DLG_DELETE_STORAGE"
-msgstr "Voulez vous vraiment supprimer le Stockage '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer le Stockage '%1' ?"
 
 msgid "_DLG_DELETE_TABLE"
-msgstr "Voulez vous vraiment supprimer la Table '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer la Table '%1' ?"
 
 msgid "_DLG_DELETE_TIMEPERIOD"
-msgstr "Voulez vous vraiment supprimer la Periode '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer la Periode '%1' ?"
 
 msgid "_DLG_DELETE_USER"
-msgstr "Voulez vous vraiment supprimer l'Utilisateur '%%arg1%%' ?"
+msgstr "Voulez vous vraiment supprimer l'Utilisateur '%1' ?"
 
 msgid "_DLG_LOGOUT"
 msgstr "Voulez vous vraiment vous deconnecter ?"
 
 msgid "_DLG_PARSE_PAUSE"
-msgstr "Voulez vous vraiment mettre en pause le parseur de la Machine '%%arg1%%' ?"
+msgstr "Voulez vous vraiment mettre en pause le parseur de la Machine '%1' ?"
 
 msgid "_DLG_PARSE_START"
-msgstr "Voulez vous vraiment demarrer le parseur de la Machine '%%arg1%%' ?"
+msgstr "Voulez vous vraiment demarrer le parseur de la Machine '%1' ?"
 
 msgid "_DLG_PARSE_STOP"
-msgstr "Voulez vous vraiment arreter le parseur de la Machine '%%arg1%%' ?"
+msgstr "Voulez vous vraiment arreter le parseur de la Machine '%1' ?"
 
 msgid "_DLG_RESTORE_CONFIG"
-msgstr "Voulez vous vraiment restaurer la configuration a partir du fichier '%%arg1%%' ?"
+msgstr "Voulez vous vraiment restaurer la configuration a partir du fichier '%1' ?"
 
 msgid "_MSG_ALERT_RAISED_ONLY"
 msgstr "Alerte remontée seulement si on reconnait n Fois en moins de d Secondes pour un Equipement"
