@@ -1,5 +1,13 @@
 [% USE ITTool.LogManagement %]
 [% USE ITTool.LogManagement.Device %]
+
+[% 
+	INCLUDE 'octopussy/dialog.tt', 
+	id => 'device_service_delete', 
+	header => 'Header',
+	body => 'Body' 
+%]
+
 <h2>[% loc("_MSG_SERVICES_FOR_DEVICE", device) %]</h2>
 <h3></h3>
 <table class="table table-bordered table-condensed table-hover table-stripped">
@@ -25,10 +33,9 @@
 	<div class="text-center">
 	[% 
 		INCLUDE 'octopussy/device/move_service_buttons.tt', 
-		device => $device, service => service.id
+		device => device, service => service.sid
 	%]
-	<a href="/device/remove_service/[% device %]/[% service.sid %]">
-	<i class="icon-remove"></i> </a>
+	<a class="open-dialog" data-toggle="modal" data-id="device_service_delete" data-header="Remove Service From Device" data-body="[% loc("_DLG_DELETE_DEVICE_SERVICE", service.sid, device) %]" data-link="/device/remove_service/[% device %]/[% service.sid %]"><i class="icon-remove"></i> </a>
 	</div>
 	</td>
 	</tr>

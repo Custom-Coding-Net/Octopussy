@@ -19,6 +19,15 @@ use Octopussy::Web::Device;
 
 my @ROUTES = ( 
 	{ method => 'GET', url => '/device/list', code => '200' },
+	{ method => 'GET', 
+		url => '/device/move_service/devicename/servicename/bottom', code => '302' },
+	{ method => 'GET', 
+        url => '/device/move_service/devicename/servicename/down', code => '302' },
+	{ method => 'GET', 
+        url => '/device/move_service/devicename/servicename/top', code => '302' },
+	{ method => 'GET', 
+        url => '/device/move_service/devicename/servicename/up', code => '302' },
+	{ method => 'GET', url => '/device/remove_service/devicename/servicename', code => '200' },
 	{ method => 'GET', url => '/device/services/devicename', code => '200' },
 	{ method => 'GET', url => '/device/storages/devicename', code => '200' },
 	);
