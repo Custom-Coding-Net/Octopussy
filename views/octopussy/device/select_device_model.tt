@@ -10,11 +10,11 @@ function device_model_update()
 	if (device_type)
 	{
 		$.ajax({
-    		url:'/device/json/device_models/' + device_type,
+    		url:'/device/json/models/' + device_type,
     		type:'GET',
     		dataType: 'json',
     		success: function(json) {
-        		$.each(json.device_models, function(i, value) 
+        		$.each(json, function(i, value) 
 				{
             		$('#select_device_model').append(
 						new Option(value.name, value.name, false, false));
