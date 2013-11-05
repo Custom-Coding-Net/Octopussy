@@ -1154,7 +1154,7 @@ msgid "_DLG_DELETE_LOG_MINUTE"
 msgstr "Estas seguro de que quieres borrar el Fichero de Log #%%datetime%% ?"
 
 msgid "_DLG_DELETE_MESSAGE"
-msgstr "Estas seguro de que quieres borrar el Mensaje '%%msg%%' del Servicio '%%service%%' ?"
+msgstr "Estas seguro de que quieres borrar el Mensaje '%1' del Servicio '%2' ?"
 
 msgid "_DLG_DELETE_REPORT"
 msgstr "Estas seguro de que quieres borrar el Informe '%1' ?"

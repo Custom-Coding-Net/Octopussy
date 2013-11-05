@@ -1,0 +1,4 @@
+<a data-toggle="tooltip" data-placement="top" title="Move Message to Top" href="/service/move_message/[% service %]/[% message %]/top"><i class="icon-double-angle-up"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Message Up" href="/service/move_message/[% service %]/[% message %]/up"><i class="icon-angle-up"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Message Down" href="/service/move_message/[% service %]/[% message %]/down"><i class="icon-angle-down"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Message to Bottom" href="/service/move_message/[% service %]/[% message %]/bottom"><i class="icon-double-angle-down"></i> </a>

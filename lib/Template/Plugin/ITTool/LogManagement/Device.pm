@@ -66,6 +66,22 @@ sub Models
     return (\@device_models);
 }
 
+=head2 Parser_Status
+
+=cut
+
+sub Parser_Status
+{
+	my ($self, $status) = @_;
+
+	my $html = '<div class="text-center">'
+        . '<span class="label' . ($status =~ /Started/i ? ' label-success' : 
+		($status =~ /Paused/i ? ' label-warning' : ' label-important'))
+        . '">' . $status . '</span></div>';
+
+    return ($html);
+}
+
 =head2 Services($device, $sort)
 
 =cut

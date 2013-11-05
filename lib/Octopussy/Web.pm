@@ -15,6 +15,7 @@ use Web::Core::JSON;
 
 use Octopussy::Web::Alert;
 use Octopussy::Web::Device;
+use Octopussy::Web::Service;
 use Octopussy::Web::User;
 
 our $VERSION = '1.2';

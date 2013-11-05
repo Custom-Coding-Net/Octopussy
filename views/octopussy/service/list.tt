@@ -1,0 +1,40 @@
+[% USE ITTool.LogManagement.Service %]
+
+[%
+    INCLUDE 'octopussy/dialog.tt', id => 'service_delete',
+    header => 'Header', body => 'Body'
+%]
+
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+<tr>
+	<th></th>
+    <th>[% loc("_NAME") %]</th>
+    <th>[% loc("_DESCRIPTION") %]</th>
+	<th>[% loc("_NB_MESSAGES") %]</th>
+	<th>[% loc("_ACTION") %]</th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH service IN ITTool.LogManagement.Service.Configurations %]
+<tr>
+	<td><!--<img src="[% service.icon %]"/>--></td>
+    <td><b>[% service.name %]</b></td>
+    <td><i>[% service.description %]</i></td>
+	<td><div class="text-right">[% service.nb_messages %]</div></td>
+	<td>
+	<div class="text-center">
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_EDIT") %]" 
+		href="/service/edit/[% service.name %]">
+		<i class="icon-edit"></i> </a>
+    <a class="open-dialog" data-toggle="modal" data-id="service_delete" 
+		data-header="Remove Service" 
+		data-body="[% loc("_DLG_DELETE_SERVICE", service.name) %]" 
+		data-link="/service/remove/[% service.name %]">
+		<i class="icon-remove"></i> </a>
+	</div>
+    </td>
+</tr>
+[% END %]
+</tbody>
+</table>

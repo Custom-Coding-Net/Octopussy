@@ -1154,7 +1154,7 @@ msgid "_DLG_DELETE_LOG_MINUTE"
 msgstr "Voce quer mesmo apagar o Arquivo de Logs %%datetime%% ?"
 
 msgid "_DLG_DELETE_MESSAGE"
-msgstr "Voce quer mesmo apagar a Mensagem '%%msg%%' from Servico '%%service%%' ?"
+msgstr "Voce quer mesmo apagar a Mensagem '%1' from Servico '%2' ?"
 
 msgid "_DLG_DELETE_REPORT"
 msgstr "Voce quer mesmo apagar o Relatorio '%1' ?"

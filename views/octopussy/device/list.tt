@@ -14,33 +14,34 @@
 <tbody>
 [% FOREACH device IN ITTool.LogManagement.Device.Configurations %]
 <tr>
-<td>[% device.name %]</td>
-<td>[% device.address %]</td>
-<td>[% device.logtype %]</td>
-<td>[% device.type %] / [% device.model %]</td>
-<td>[% device.description %]</td>
-<td><span class="label label-[% (device.status == 'Started' ? 'success' : (device.status == 'Paused' ? 'warning' : 'important')) %]">[% device.status %]</span></td>
-<td>
-<a href="/device/services/[% device.name %]"><i class="icon-cog"></i> </a>
-<a href="/device/storages/[% device.name %]"><i class="icon-hdd"></i> </a>
-<a href="/device/dashboard/[% device.name %]"><i class="icon-dashboard"></i> </a>
-<a href="/device/edition/[% device.name %]"><i class="icon-edit"></i> </a>
-<a href="/device/remove/[% device.name %]"><i class="icon-remove"></i> </a>
-</td>
+	<td>[% device.name %]</td>
+	<td>[% device.address %]</td>
+	<td>[% device.logtype %]</td>
+	<td>[% device.type %] / [% device.model %]</td>
+	<td>[% device.description %]</td>
+	<td>[% ITTool.LogManagement.Device.Parser_Status(device.status) %]</td>
+	<td>
+	<a href="/device/services/[% device.name %]"><i class="icon-cog"></i> </a>
+	<a href="/device/storages/[% device.name %]"><i class="icon-hdd"></i> </a>
+	<a href="/device/dashboard/[% device.name %]"><i class="icon-dashboard"></i> </a>
+	<a href="/device/edit/[% device.name %]"><i class="icon-edit"></i> </a>
+	<a href="/device/remove/[% device.name %]"><i class="icon-remove"></i> </a>
+	</td>
 </tr>
 [% END %]
 <form>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>
-[% INCLUDE 'octopussy/device/select_device_type.tt' %]
-[% INCLUDE 'octopussy/device/select_device_model.tt' %]
-</td>
-<td></td>
-<td colspan="2"><button type="submit" class="btn btn-primary">
-[% loc("_NEW_DEVICE") %]</button></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>
+	[% INCLUDE 'octopussy/device/select_device_type.tt' %]
+	[% INCLUDE 'octopussy/device/select_device_model.tt' %]
+	</td>
+	<td></td>
+	<td colspan="2"><button type="submit" class="btn btn-primary">
+	[% loc("_NEW_DEVICE") %]</button></td>
+</tr>
 </form>
 </tbody>
 </table>

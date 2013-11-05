@@ -1157,7 +1157,7 @@ msgid "_DLG_DELETE_LOG_MINUTE"
 msgstr "Voulez vous vraiment supprimer le fichier de Log %%datetime%% ?"
 
 msgid "_DLG_DELETE_MESSAGE"
-msgstr "Voulez vous vraiment supprimer le Message '%%msg%%' du Service '%%service%%' ?"
+msgstr "Voulez vous vraiment supprimer le Message '%1' du Service '%2' ?"
 
 msgid "_DLG_DELETE_REPORT"
 msgstr "Voulez vous vraiment supprimer le Rapport '%1' ?"

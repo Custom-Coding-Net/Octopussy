@@ -1,0 +1,7 @@
+[% USE ITTool.LogManagement.Service %]
+<select name="select_service" id="select_service">
+<option value="" selected>-- [% loc("_SERVICE") %] --</option>
+[% FOREACH service IN ITTool.LogManagement.Service.Configurations %]
+	<option value="[% service.name %]">[% service.name %]</option>
+[% END %]
+</select>

@@ -40,12 +40,15 @@
 	</td>
 	</tr>
 [% END %]
-<form>
+<form method="post" action="/device/add_service">
+<input type="hidden" name="device" value="[% device %]"> 
 <tr>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>[% INCLUDE 'octopussy/service/select_service.tt' %]</td>
+<td>[% INCLUDE 'octopussy/select_status.tt', 
+	id => 'statistics', name => 'statistics' %]</td>
+<td>[% INCLUDE 'octopussy/select_status.tt', 
+    id => 'compression', name => 'compression' %]</td>
 <td>
 <div class="text-center">
 <button type="submit" class="btn btn-primary">[% loc("_ADD_SERVICE_TO_DEVICE") %]</button>
