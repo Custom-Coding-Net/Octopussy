@@ -5,4 +5,5 @@
 <link rel="stylesheet" href="[% request.uri_base %]/css/site.css" />
 <link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap.min.css" />
 <link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap-octopussy.css" />
 <link rel="stylesheet" href="[% request.uri_base %]/css/font-awesome.css" />

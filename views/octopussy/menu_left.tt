@@ -1,27 +1,27 @@
 [%-
 menu = [
     { label => '_SYSTEM_CONFIG', icon => 'wrench', url => '/system_config' },
-	{ label => '_ALERTS', icon => 'warning-sign', url => '/alert/list' },
+	{ label => '_ALERTS', icon => 'exclamation-triangle', url => '/alert/list' },
 	{ label => '_CONTACTS', icon => 'group', url => '/contact/list' },
 	{ label => '_DEVICES', icon => 'desktop', url => '/device/list' },
 	{ label => '_DEVICEGROUPS', icon => 'sitemap', url => '/devicegroup/list' },
 	{ label => '_LOCATIONS', icon => 'map-marker', url => '/location/list' },
 #	{ label => '_MAPS', icon => '', url => '/map/list' },
 	{ label => '_MESSAGES', icon => 'list', url => '/message/list' },
-	{ label => '_REPORTS', icon => 'bar-chart', url => '/report/list' },
+	{ label => '_REPORTS', icon => 'bar-chart-o', url => '/report/list' },
 	{ label => '_SCHEDULER', icon => 'calendar', url => '/scheduler/list' },
 	{ label => '_SEARCH_TEMPLATES', icon => 'edit', url => '/search_template/list' },
 	{ label => '_SERVICES', icon => 'cog', url => '/service/list' },
     { label => '_SERVICEGROUPS', icon => 'cogs', url => '/servicegroup/list' },
-    { label => '_STORAGES', icon => 'hdd', url => '/storage/list' },
+    { label => '_STORAGES', icon => 'hdd-o', url => '/storage/list' },
 	{ label => '_TABLES', icon => 'table', url => '/table/list' },
-    { label => '_TIMEPERIODS', icon => 'time', url => '/timeperiod/list' },
+    { label => '_TIMEPERIODS', icon => 'clock-o', url => '/timeperiod/list' },
     { label => '_USERS', icon => 'user', url => '/user/list' },
 	{ divider => 1 },
-	{ label => '_ALERTS_VIEWER', icon => 'eye-open', icon2 => 'warning-sign', url => '/alert/viewer' },
-	{ label => '_LOGS_AVAILABILITY', icon => 'eye-open', icon2 => 'table', url => '/log/availability' },
-	{ label => '_LOGS_VIEWER', icon => 'eye-open', icon2 => 'list', url => '/log/viewer' },
-	{ label => '_REPORTS_VIEWER', icon => 'eye-open', icon2 => 'bar-chart', url => '/report/viewer' },
+	{ label => '_ALERTS_VIEWER', icon => 'eye', icon2 => 'exclamation-triangle', url => '/alert/viewer' },
+	{ label => '_LOGS_AVAILABILITY', icon => 'eye', icon2 => 'table', url => '/log/availability' },
+	{ label => '_LOGS_VIEWER', icon => 'eye', icon2 => 'list', url => '/log/viewer' },
+	{ label => '_REPORTS_VIEWER', icon => 'eye', icon2 => 'bar-chart-o', url => '/report/viewer' },
 	{ divider => 1 },
 	{ label => '_LOGS_WIZARD', icon => 'magic', url => '/log/wizard' },
 	{ divider => 1 },
@@ -33,9 +33,9 @@ menu = [
 		[% IF m.divider %]
 			<li class="divider"></li>
 		[% ELSIF m.icon2 %]
-			<li><a href="[% m.url %]"><i class="icon-[% m.icon %]"></i> <i class="icon-[% m.icon2 %]"></i> [% loc(m.label) %] </a></li>
+			<li><a href="[% m.url %]"><i class="fa fa-[% m.icon %]"></i> <i class="fa fa-[% m.icon2 %]"></i> [% loc(m.label) %] </a></li>
 		[% ELSE %]
-			<li><a href="[% m.url %]"><i class="icon-[% m.icon %]"></i> [% loc(m.label) %] </a></li>
+			<li><a href="[% m.url %]"><i class="fa fa-[% m.icon %]"></i> [% loc(m.label) %] </a></li>
 		[% END %]
 	[% END %]
 	</ul>

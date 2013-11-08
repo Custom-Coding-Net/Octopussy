@@ -1,5 +1,7 @@
+[% USE ITTool.LogManagement.Loglevel %]
 [% USE ITTool.LogManagement.Message %]
 [% USE ITTool.LogManagement.Service %]
+[% USE ITTool.LogManagement.Taxonomy %]
 
 [%
     INCLUDE 'octopussy/dialog.tt', id => 'message_delete',
@@ -24,8 +26,8 @@
 	<td>[% msg.rank %]</td>
 	<td></td>
 	<td>[% msg.msg_id %]</td>
-	<td>[% msg.loglevel %]</td>
-	<td>[% msg.taxonomy %]</td>
+	<td>[% ITTool.LogManagement.Loglevel.Colored(msg.loglevel) %]</td>
+	<td>[% ITTool.LogManagement.Taxonomy.Colored(msg.taxonomy) %]</td>
 	<td>[% msg.table %]</td>
 	<td><div class="text-center">
 	[%
@@ -39,13 +41,13 @@
 	<td colspan="5">[% ITTool.LogManagement.Message.Color(msg.pattern) %]</td>
 	<td><div class="text-center">
 	<a data-toggle="tooltip" data-placement="top" title="[% loc("_EDIT") %]" 
-        href="/service/message/edit/[% service %]">
-        <i class="icon-edit"></i> </a>
+        href="/service/message/edit/[% service %]/[% msg.msg_id%]">
+        <i class="fa fa-edit"></i> </a>
     <a class="open-dialog" data-toggle="modal" data-id="message_delete" 
         data-header="Remove Service Message" 
         data-body="[% loc("_DLG_DELETE_MESSAGE", msg.msg_id, service) %]" 
         data-link="/service/message/remove/[% service.name %]/[% msg.msg_id%]">
-        <i class="icon-remove"></i> </a>
+        <i class="fa fa-trash-o"></i> </a>
 	</div></td>
 </tr>
 [% END %]

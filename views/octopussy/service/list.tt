@@ -26,12 +26,12 @@
 	<div class="text-center">
 	<a data-toggle="tooltip" data-placement="top" title="[% loc("_EDIT") %]" 
 		href="/service/edit/[% service.name %]">
-		<i class="icon-edit"></i> </a>
+		<i class="fa fa-edit"></i> </a>
     <a class="open-dialog" data-toggle="modal" data-id="service_delete" 
 		data-header="Remove Service" 
 		data-body="[% loc("_DLG_DELETE_SERVICE", service.name) %]" 
 		data-link="/service/remove/[% service.name %]">
-		<i class="icon-remove"></i> </a>
+		<i class="fa fa-trash-o"></i> </a>
 	</div>
     </td>
 </tr>

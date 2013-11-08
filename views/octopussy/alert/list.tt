@@ -1,0 +1,29 @@
+[% USE ITTool.LogManagement.Alert %]
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+<tr>
+	<th>[% loc("_NAME") %]</th>
+	<th>[% loc("_DESCRIPTION") %]</th>
+	<th>[% loc("_LEVEL") %]</th>
+	<th>[% loc("_TYPE") %]</th>
+	<th>[% loc("_STATUS") %]</th>
+	<th>[% loc("_ACTION") %]</th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH alert IN ITTool.LogManagement.Alert.Configurations %]
+<tr>
+	<td>[% alert.name %]</td>
+	<td>[% alert.description %]</td>
+	<td>[% alert.level %]</td>
+	<td>[% alert.type %]</td>
+	<td><div class="text-center">
+	<span class="label[% (alert.status == 'Enabled' ? ' label-success' : '') %]">[% alert.status %]</span></div></td>
+	<td>
+	<a href="/alert/edition/[% device.name %]"><i class="fa fa-edit"></i> </a>
+	<a href="/alert/remove/[% device.name %]"><i class="fa fa-trash-o"></i> </a>
+	</td>
+</tr>
+[% END %]
+</tbody>
+</table>

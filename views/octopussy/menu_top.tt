@@ -5,16 +5,16 @@
       	<ul class="nav pull-right">
 			<li id="fat-menu" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-			<i class="icon-user"></i> [% session.octopussy_user %]<span class="icon-caret-down"></span></a>
+			<i class="fa fa-user"></i> [% session.octopussy_user %]<span class="fa fa-caret-down"></span></a>
             	<ul class="dropdown-menu" role="menu">
 <!--
-					<li><i class="icon-user"></i> [% session.octopussy_user_firstname %] [% session.octopussy_user_lastname %]</li>
-					<li><i class="icon-caret-right"></i> [% loc('_ROLE') %]: [% session.octopussy_role %]</li>
+					<li><i class="fa fa-user"></i> [% session.octopussy_user_firstname %] [% session.octopussy_user_lastname %]</li>
+					<li><i class="fa fa-caret-right"></i> [% loc('_ROLE') %]: [% session.octopussy_role %]</li>
 					<li class="divider"></li>
 -->
-					<li><a href="/user/preferences"><i class="icon-wrench"></i> [% loc('_USER_PREFS') %]</a></li>
+					<li><a href="/user/preferences"><i class="fa fa-wrench"></i> [% loc('_USER_PREFS') %]</a></li>
 					<li class="divider"></li>
-              		<li><a href="/user/logout"><i class="icon-off"></i> [% loc('_LOGOUT') %]</a></li>
+              		<li><a href="/user/logout"><i class="fa fa-power-off"></i> [% loc('_LOGOUT') %]</a></li>
             	</ul>
           	</div>
 			</li>

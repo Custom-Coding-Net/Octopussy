@@ -1,4 +1,4 @@
-<a data-toggle="tooltip" data-placement="top" title="Move Service to Top" href="/device/move_service/[% device %]/[% service %]/top"><i class="icon-double-angle-up"></i> </a>
-<a data-toggle="tooltip" data-placement="top" title="Move Service Up" href="/device/move_service/[% device %]/[% service %]/up"><i class="icon-angle-up"></i> </a>
-<a data-toggle="tooltip" data-placement="top" title="Move Service Down" href="/device/move_service/[% device %]/[% service %]/down"><i class="icon-angle-down"></i> </a>
-<a data-toggle="tooltip" data-placement="top" title="Move Service to Bottom" href="/device/move_service/[% device %]/[% service %]/bottom"><i class="icon-double-angle-down"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Service to Top" href="/device/move_service/[% device %]/[% service %]/top"><i class="fa fa-angle-double-up"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Service Up" href="/device/move_service/[% device %]/[% service %]/up"><i class="fa fa-angle-up"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Service Down" href="/device/move_service/[% device %]/[% service %]/down"><i class="fa fa-angle-down"></i> </a>
+<a data-toggle="tooltip" data-placement="top" title="Move Service to Bottom" href="/device/move_service/[% device %]/[% service %]/bottom"><i class="fa fa-angle-double-down"></i> </a>

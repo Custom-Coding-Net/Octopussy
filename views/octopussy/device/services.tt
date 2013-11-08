@@ -35,7 +35,7 @@
 		INCLUDE 'octopussy/device/move_service_buttons.tt', 
 		device => device, service => service.sid
 	%]
-	<a class="open-dialog" data-toggle="modal" data-id="device_service_delete" data-header="Remove Service From Device" data-body="[% loc("_DLG_DELETE_DEVICE_SERVICE", service.sid, device) %]" data-link="/device/remove_service/[% device %]/[% service.sid %]"><i class="icon-remove"></i> </a>
+	<a class="open-dialog" data-toggle="modal" data-id="device_service_delete" data-header="Remove Service From Device" data-body="[% loc("_DLG_DELETE_DEVICE_SERVICE", service.sid, device) %]" data-link="/device/remove_service/[% device %]/[% service.sid %]"><i class="fa fa-trash-o"></i> </a>
 	</div>
 	</td>
 	</tr>
