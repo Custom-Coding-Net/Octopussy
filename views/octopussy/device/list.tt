@@ -1,4 +1,15 @@
 [% USE ITTool.LogManagement.Device %]
+
+[% INCLUDE 'octopussy/device/dialog_new.tt' %]
+
+<div align="center">
+<a class="open-dialog" data-toggle="modal" data-id="device_new" data-header="" data-body="" data-link="/device/new">
+<button type="submit" class="btn btn-primary">
+<i class="fa fa-plus-circle"></i> <i class="fa fa-desktop"></i> [% loc("_NEW_DEVICE") %]</button>
+</a>
+</div>
+<br>
+
 <table class="table table-bordered table-condensed table-hover table-stripped">
 <thead>
 <tr>
@@ -29,19 +40,5 @@
 	</td>
 </tr>
 [% END %]
-<form>
-<tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td>
-	[% INCLUDE 'octopussy/device/select_device_type.tt' %]
-	[% INCLUDE 'octopussy/device/select_device_model.tt' %]
-	</td>
-	<td></td>
-	<td colspan="2"><button type="submit" class="btn btn-primary">
-	[% loc("_NEW_DEVICE") %]</button></td>
-</tr>
-</form>
 </tbody>
 </table>

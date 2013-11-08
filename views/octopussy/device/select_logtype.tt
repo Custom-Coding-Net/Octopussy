@@ -1,0 +1,4 @@
+<select name="select_logtype" id="select_logtype" class="input-medium">
+	<option value="asynchronous">asynchronous</option>
+	<option value="syslog" selected>syslog</option>
+</select>
