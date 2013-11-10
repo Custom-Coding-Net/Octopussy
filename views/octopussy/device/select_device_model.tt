@@ -1,12 +1,12 @@
-<select name="select_device_model" id="select_device_model" class="input-medium">
+<select name="select_device_model[% id_model %]" id="select_device_model[% id_model %]" class="input-medium">
 </select>
 <script type="text/javascript" charset="utf-8">
-function device_model_update()
+function device_model[% id_model %]_update()
 {
-	$('#select_device_model').empty();
-	$('#select_device_model').append(
+	$('#select_device_model[% id_model %]').empty();
+	$('#select_device_model[% id_model %]').append(
 		new Option('-- [% loc("_DEVICE_MODEL") %] --', '', false, false));	
-	var device_type = $('#select_device_type').val();
+	var device_type = $('#select_device_type[% id_type %]').val();
 	if (device_type)
 	{
 		$.ajax({
@@ -16,21 +16,21 @@ function device_model_update()
     		success: function(json) {
         		$.each(json, function(i, value) 
 				{
-            		$('#select_device_model').append(
+            		$('#select_device_model[% id_model %]').append(
 						new Option(value.name, value.name, false, false));
         		});
        		}
 		});
 	}
-	$('#select_device_model').val('[% selected %]');
+	$('#select_device_model[% id_model %]').val('[% selected %]');
 }
 
 /* 
 ** When device_type is changed , update the device_model selector
 */
-$('#select_device_type').on('change', function() {
-    device_model_update();
+$('#select_device_type[% id_type %]').on('change', function() {
+    device_model[% id_model %]_update();
 });
 
-device_model_update();
+device_model[% id_model %]_update();
 </script>

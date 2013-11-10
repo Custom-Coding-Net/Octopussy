@@ -1,3 +1,4 @@
+<!-- Dialog BEGIN -->
 <div id="dialog_device_new" class="modal hide fade" tabindex="-1" role="dialog"
  aria-labelledby="dialog_header_device_new" aria-hidden="true">
     <div class="modal-body">
@@ -28,7 +29,7 @@
 		[% loc("_DEVICE_TYPE") %]
 		</label>
         <div class="controls">
-		[% INCLUDE 'octopussy/device/select_device_type.tt' %]
+		[% INCLUDE 'octopussy/device/select_device_type.tt', id_type => 'dialog' %]
         </div>
     </div>
 	<div class="control-group">
@@ -36,7 +37,7 @@
         [% loc("_DEVICE_MODEL") %]
         </label>
         <div class="controls">
-		[% INCLUDE 'octopussy/device/select_device_model.tt' %]
+		[% INCLUDE 'octopussy/device/select_device_model.tt', id_type => 'dialog', id_model => 'dialog' %]
         </div>
     </div>
 	<div class="control-group">
@@ -68,3 +69,4 @@ $(document).on("click", ".open-dialog", function () {
     $('#dialog_' + id).modal('show');
 });
 </script>
+<!-- Dialog END -->

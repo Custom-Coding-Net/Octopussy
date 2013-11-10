@@ -10,6 +10,16 @@
 </div>
 <br>
 
+<div align="center">
+<form class="form-inline" role="form">
+	[% INCLUDE 'octopussy/device/select_logtype.tt' %]
+	[% INCLUDE 'octopussy/device/select_device_type.tt' %]
+    [% INCLUDE 'octopussy/device/select_device_model.tt' %]
+	<button type="submit" class="btn btn-primary">
+	<i class="fa fa-filter"></i> [% loc("_FILTER") %]</button>
+</form>
+</div>
+
 <table class="table table-bordered table-condensed table-hover table-stripped">
 <thead>
 <tr>
@@ -32,11 +42,16 @@
 	<td>[% device.description %]</td>
 	<td>[% ITTool.LogManagement.Device.Parser_Status(device.status) %]</td>
 	<td>
-	<a href="/device/services/[% device.name %]"><i class="fa fa-cog"></i> </a>
-	<a href="/device/storages/[% device.name %]"><i class="fa fa-hdd-o"></i> </a>
-	<a href="/device/dashboard/[% device.name %]"><i class="fa fa-dashboard"></i> </a>
-	<a href="/device/edit/[% device.name %]"><i class="fa fa-edit"></i> </a>
-	<a href="/device/remove/[% device.name %]"><i class="fa fa-trash-o"></i> </a>
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_SERVICES") %]"
+		href="/device/services/[% device.name %]"><i class="fa fa-cog"></i> </a>
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_STORAGES") %]"
+		href="/device/storages/[% device.name %]"><i class="fa fa-hdd-o"></i> </a>
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_DASHBOARD") %]"
+		href="/device/dashboard/[% device.name %]"><i class="fa fa-dashboard"></i> </a>
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_EDIT") %]"
+		href="/device/edit/[% device.name %]"><i class="fa fa-edit"></i> </a>
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_REMOVE") %]"
+		href="/device/remove/[% device.name %]"><i class="fa fa-trash-o"></i> </a>
 	</td>
 </tr>
 [% END %]

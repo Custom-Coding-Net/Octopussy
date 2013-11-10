@@ -1,3 +1,4 @@
+<!-- menu_left BEGIN -->
 [%-
 menu = [
     { label => '_SYSTEM_CONFIG', icon => 'wrench', url => '/system_config' },
@@ -29,13 +30,14 @@ menu = [
 	]
 -%]
 	<ul class="nav nav-list bs-docs-sidenav">
-	[% FOREACH m IN menu %]
-		[% IF m.divider %]
-			<li class="divider"></li>
-		[% ELSIF m.icon2 %]
-			<li><a href="[% m.url %]"><i class="fa fa-[% m.icon %]"></i> <i class="fa fa-[% m.icon2 %]"></i> [% loc(m.label) %] </a></li>
-		[% ELSE %]
-			<li><a href="[% m.url %]"><i class="fa fa-[% m.icon %]"></i> [% loc(m.label) %] </a></li>
-		[% END %]
-	[% END %]
+	[% FOREACH m IN menu -%]
+		[% IF m.divider -%]
+		<li class="divider"></li>
+		[% ELSIF m.icon2 -%]
+		<li><a href="[% m.url %]"><i class="fa fa-[% m.icon %]"></i> <i class="fa fa-[% m.icon2 %]"></i> [% loc(m.label) %] </a></li>
+		[% ELSE -%]
+		<li><a href="[% m.url %]"><i class="fa fa-[% m.icon %]"></i> [% loc(m.label) %] </a></li>
+		[% END -%]
+	[% END -%]
 	</ul>
+<!-- menu_left END -->
