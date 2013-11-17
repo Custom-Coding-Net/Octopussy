@@ -93,7 +93,8 @@ Route to list Services from Device :devicename
 
 get '/device/services/:devicename' => sub
 {
-	template 'octopussy/device/services', { device => params->{'devicename'} };
+	template 'octopussy/device/services', 
+		{ device => params->{'devicename'}, sort => params->{sort} };
 };
 
 =head2 GET '/device/storages/:devicename'

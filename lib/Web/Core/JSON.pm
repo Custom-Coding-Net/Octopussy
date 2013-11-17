@@ -16,7 +16,6 @@ use Web::Core::JSON::Validation;
 use Web::Core::Language;
 
 set serializer => 'JSON';
-
 prefix '/JSON';
 
 =head1 ROUTES
@@ -47,6 +46,9 @@ get '/language/list' => sub
 
     return (\@data);
 };
+
+set serializer => undef;
+prefix undef;
 
 1;
 
