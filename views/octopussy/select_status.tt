@@ -1,4 +1,4 @@
-<select name="[% name || 'select_status' %]" id="[% id || 'select_status' %]">
+<select name="[% name || 'select_status' %]" id="[% id || 'select_status' %]" class="input-medium">
 	<option value="0">[% loc("_DISABLED") %]</option>
 	<option value="1" selected>[% loc("_ENABLED") %]</option>
 </select>

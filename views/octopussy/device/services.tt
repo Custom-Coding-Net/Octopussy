@@ -17,11 +17,23 @@
 	<th>[% loc("_SERVICE") %]</th>
 	<th>[% loc("_STATISTICS") %]</th>
 	<th>[% loc("_LOGS_COMPRESSION") %]</th>
-	<th>[% loc("_ACTION") %]</th>
+	<th>[% loc("_ACTION") %]
+	<div class="btn-group">
+	<a class="btn dropdown-toggle" data-toggle="dropdown">
+	<i class="fa fa-sort-alpha-asc"></i>
+	</a>
+	<ul class="dropdown-menu">
+	<li><a href="/device/services/[% device %]?sort=rank">Sort by Rank</a></li>
+	<li><a href="/device/services/[% device %]?sort=sid">Sort by Service</a></li>
+	<li><a href="/device/services/[% device %]?sort=statistics">Sort by Statistics Status</a></li>
+	<li><a href="/device/services/[% device %]?sort=compression">Sort by Logs Compression Status</a></li>
+	</ul>
+	</div>
+	</th>
 </tr>
 </thead>
 <tbody>
-[% FOREACH service IN ITTool.LogManagement.Device.Services(device, 'rank') %]
+[% FOREACH service IN ITTool.LogManagement.Device.Services(device, (sort || 'rank')) %]
 	[% statistics_status = (service.statistics ? 'Enabled' : 'Disabled') %]
 	[% compression_status = (service.compression ? 'Enabled' : 'Disabled') %]
 	<tr>
