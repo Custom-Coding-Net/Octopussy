@@ -1,0 +1,33 @@
+[% USE ITTool.LogManagement.Table %]
+
+[%
+    INCLUDE 'octopussy/dialog.tt', id => 'table_field_delete',
+    header => 'Header', body => 'Body'
+%]
+
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+<tr>
+    <th>[% loc("_FIELD") %]</th>
+    <th>[% loc("_TYPE") %]</th>
+	<th><div class="text-center">[% loc("_ACTION") %]</div></th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH field IN ITTool.LogManagement.Table.Fields(table) %]
+<tr>
+    <td><b>[% field.title %]</b></td>
+    <td>[% field.type %]</td>
+	<td>
+	<div class="text-center">
+    <a class="open-dialog" data-toggle="modal" data-id="table_field_delete" 
+		data-header="Remove Table Field" 
+		data-body="[% loc("_DLG_DELETE_TABLE", field.title) %]" 
+		data-link="/table/field_remove/[% table %]/[% field.title %]">
+		<i class="fa fa-trash-o"></i> </a>
+	</div>
+    </td>
+</tr>
+[% END %]
+</tbody>
+</table>

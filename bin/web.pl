@@ -9,14 +9,13 @@ set octopussy_version => '1.2';
 
 use lib "$FindBin::Bin/../lib";
 
-#use Octopussy::Web;
-
 use Template::Plugin::ITTool;
 use Template::Plugin::ITTool::LogManagement;
 use Template::Plugin::ITTool::LogManagement::Alert;
 use Template::Plugin::ITTool::LogManagement::Device;
 use Template::Plugin::ITTool::LogManagement::Service;
 use Template::Plugin::ITTool::LogManagement::Storage;
+use Template::Plugin::ITTool::LogManagement::Table;
 
 use Octopussy::Web;
 

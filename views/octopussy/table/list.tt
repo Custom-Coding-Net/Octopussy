@@ -1,0 +1,46 @@
+[% USE ITTool.LogManagement.Table %]
+
+[% INCLUDE 'octopussy/table/dialog_new.tt' %]
+
+[%
+    INCLUDE 'octopussy/dialog.tt', id => 'table_delete',
+    header => 'Header', body => 'Body'
+%]
+
+<div align="center">
+<a class="open-dialog" data-toggle="modal" data-id="table_new" data-header="" data-body="" data-link="/table/new">
+<button type="submit" class="btn btn-primary">
+<i class="fa fa-plus-circle"></i> <i class="fa fa-table"></i> [% loc("_NEW_TABLE") %]</button>
+</a>
+</div>
+<br>
+
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+<tr>
+    <th>[% loc("_NAME") %]</th>
+    <th>[% loc("_DESCRIPTION") %]</th>
+	<th><div class="text-center">[% loc("_ACTION") %]</div></th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH table IN ITTool.LogManagement.Table.Configurations %]
+<tr>
+    <td><b>[% table.name %]</b></td>
+    <td><i>[% table.description %]</i></td>
+	<td>
+	<div class="text-center">
+	<a data-toggle="tooltip" data-placement="top" title="[% loc("_EDIT") %]" 
+		href="/table/edit/[% table.name %]">
+		<i class="fa fa-edit"></i> </a>
+    <a class="open-dialog" data-toggle="modal" data-id="table_delete" 
+		data-header="Remove Table" 
+		data-body="[% loc("_DLG_DELETE_TABLE", table.name) %]" 
+		data-link="/table/remove/[% table.name %]">
+		<i class="fa fa-trash-o"></i> </a>
+	</div>
+    </td>
+</tr>
+[% END %]
+</tbody>
+</table>
