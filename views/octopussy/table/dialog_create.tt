@@ -1,21 +1,23 @@
 <!-- Dialog BEGIN -->
-<div id="dialog_table_new" class="modal hide fade" tabindex="-1" role="dialog"
- aria-labelledby="dialog_header_table_new" aria-hidden="true">
+<div id="dialog_table_create" class="modal hide fade" tabindex="-1" role="dialog"
+ aria-labelledby="dialog_header_table_create" aria-hidden="true">
     <div class="modal-body">
-    <p id="dialog_body_table_new">
-<form class="form-horizontal">
+    <p id="dialog_body_table_create">
+<form method="post" action="/table/create" class="form-horizontal">
 <fieldset>
 <legend><i class="fa fa-plus-circle"></i> <i class="fa fa-table"></i> [% loc("_NEW_TABLE") %]</legend>
     <div class="control-group">
         <label class="control-label" for="name">[% loc("_NAME") %]</label>
         <div class="controls">
-        <input type="text" id="name" placeholder="[% loc("_NAME") %]">
+        <input type="text" id="name" name="name" 
+		placeholder="[% loc("_NAME") %]">
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="description">[% loc("_DESCRIPTION") %]</label>
         <div class="controls">
-        <input type="text" id="description" placeholder="[% loc("_DESCRIPTION") %]">
+        <input type="text" id="description" name="description"
+		placeholder="[% loc("_DESCRIPTION") %]">
         </div>
     </div>
     </p>
@@ -23,7 +25,7 @@
 
 	<div class="modal-footer">
         <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i> [% loc("_CANCEL") %]</button>
-        <a id="dialog_link_table_new" class="btn btn-primary"><i class="fa fa-save"></i> [% loc("_SAVE") %]</a>
+        <button type="submit" id="dialog_link_table_create" class="btn btn-primary"><i class="fa fa-save"></i> [% loc("_SAVE") %]</button>
     </div>
 </fieldset>
 </form>

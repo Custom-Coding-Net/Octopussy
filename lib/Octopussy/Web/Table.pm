@@ -15,6 +15,22 @@ use Octopussy::Table;
 
 =head1 SUBROUTINES/METHODS
 
+=head2 POST '/table/create'
+
+Route to Create a Table
+
+=cut
+
+post '/table/create' => sub
+{
+	my ($name, $desc) = (params->{'name'}, params->{'description'});
+
+	# TODO user rights
+	Octopussy::Table::New({ name => $name, description => $desc });
+
+	redirect '/table/edit/' . $name;    
+};
+
 =head2 GET '/table/edit/:tablename'
 
 Route to edit Table ':tablename'

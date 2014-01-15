@@ -1,6 +1,6 @@
 [% USE ITTool.LogManagement.Table %]
 
-[% INCLUDE 'octopussy/table/dialog_new.tt' %]
+[% INCLUDE 'octopussy/table/dialog_create.tt' %]
 
 [%
     INCLUDE 'octopussy/dialog.tt', id => 'table_delete',
@@ -8,7 +8,7 @@
 %]
 
 <div align="center">
-<a class="open-dialog" data-toggle="modal" data-id="table_new" data-header="" data-body="" data-link="/table/new">
+<a class="open-dialog" data-toggle="modal" data-id="table_create" data-header="" data-body="" data-link="/table/create">
 <button type="submit" class="btn btn-primary">
 <i class="fa fa-plus-circle"></i> <i class="fa fa-table"></i> [% loc("_NEW_TABLE") %]</button>
 </a>
